@@ -1,0 +1,76 @@
+[
+  {
+    "plugin": "Neural DSP Archetype Nolly",
+    "type": "NDSP",
+    "controls": {
+      "amp": ["Input Gain", "Bass", "Low Mid", "High Mid", "Treble", "Presence", "Master Volume", "Boost"],
+      "cab": ["Mic Type", "Mic Position", "Room Amount", "Low Cut Hz", "High Cut Hz"],
+      "gate": ["Threshold", "Attack", "Release"],
+      "fx": ["Chorus Rate", "Chorus Depth", "Delay Time", "Delay Feedback", "Reverb Size", "Reverb Mix"]
+    },
+    "typical_ranges": {
+      "Input Gain": "0-10",
+      "Bass": "0-10",
+      "Low Mid": "0-10",
+      "High Mid": "0-10",
+      "Treble": "0-10",
+      "Presence": "0-10"
+    }
+  },
+  {
+    "plugin": "Neural DSP Archetype Petrucci",
+    "type": "NDSP",
+    "controls": {
+      "amp": ["Gain", "Bass", "Mid", "Treble", "Presence", "Volume", "Rhythm/Lead Toggle"],
+      "cab": ["Speaker Size", "Mic Selection", "Mic Distance", "Low Shelf", "High Shelf"],
+      "fx": ["Wah", "Compressor", "Chorus", "Flanger", "Delay", "Reverb"]
+    }
+  },
+  {
+    "plugin": "Neural DSP Archetype Gojira",
+    "type": "NDSP",
+    "controls": {
+      "amp": ["Gain", "Bass", "Mid", "Treble", "Presence", "Depth", "Master"],
+      "cab": ["Cabinet Type", "Mic Blend", "Air", "Low Cut", "High Cut"],
+      "fx": ["Whammy", "Wah", "Fuzz", "Delay", "Reverb", "Synth"]
+    }
+  },
+  {
+    "plugin": "Neural DSP Parallax",
+    "type": "NDSP",
+    "controls": {
+      "preamp": ["Input", "Contour", "Drive", "Low", "High"],
+      "poweramp": ["Sag", "Bias", "Master"],
+      "cab": ["Cabinet Model", "Mic 1 Type", "Mic 1 Pos", "Mic 2 Type", "Mic 2 Blend", "Room"],
+      "gate": ["Threshold", "Release"]
+    }
+  },
+  {
+    "plugin": "Neural DSP Fortin Nameless",
+    "type": "NDSP",
+    "controls": {
+      "amp": ["Gain", "Bass", "Mid", "Treble", "Presence", "Volume"],
+      "cab": ["Cab Model", "Mic", "Distance", "Low Cut", "High Cut"],
+      "fx": ["Gate Threshold", "Boost Level", "Delay", "Reverb"]
+    }
+  },
+  {
+    "plugin": "STL Tonality Howard Benson",
+    "type": "STL",
+    "controls": {
+      "amp": ["Gain", "Bass", "Middle", "Treble", "Presence", "Resonance", "Master"],
+      "cab": ["Cabinet", "Microphone", "Position", "Distance", "Room", "Low Cut", "High Cut"],
+      "dynamics": ["Compressor Threshold", "Compressor Ratio", "Limiter"],
+      "fx": ["Chorus", "Phaser", "Delay Time", "Delay Mix", "Reverb Type", "Reverb Mix"]
+    }
+  },
+  {
+    "plugin": "STL Tonality Andy James",
+    "type": "STL",
+    "controls": {
+      "amp": ["Gain", "Bass", "Mid", "Treble", "Presence", "Master Volume", "Lead Boost"],
+      "cab": ["Cabinet", "Mic", "Mic Position", "Blend", "Low Cut", "High Cut"],
+      "fx": ["Gate", "EQ Low", "EQ Mid", "EQ High", "Delay", "Reverb"]
+    }
+  }
+]
