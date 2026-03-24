@@ -1,5 +1,7 @@
 import asyncio
 import json
+import signal
+import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -21,13 +23,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ── Track connected SSE clients ──
+connected_clients: set = set()
+
 
 class ToneRequest(BaseModel):
     vst_name: Optional[str] = None
     band_name: Optional[str] = None
     is_general: bool = False
     message: Optional[str] = None
-    chat_history: Optional[list] = []  # full conversation history
+    chat_history: Optional[list] = []
     chat_id: Optional[str] = None
 
 
@@ -42,6 +47,12 @@ def health():
     return {"status": "ok", "tony": "ready"}
 
 
+@app.get("/session-status")
+def session_status():
+    """Frontend polls this to check if backend is alive."""
+    return {"alive": True}
+
+
 @app.post("/generate-tone")
 async def generate_tone(req: ToneRequest):
     user_message = req.message or req.band_name or ""
@@ -50,14 +61,12 @@ async def generate_tone(req: ToneRequest):
 
     if req.is_general:
         system = TONY_GENERAL_PROMPT
-        # Build messages with history for conversational continuity
         messages = [{"role": "system", "content": system}]
         for h in (req.chat_history or []):
             if h.get("role") in ("user", "assistant"):
                 messages.append({"role": h["role"], "content": h["content"]})
         messages.append({"role": "user", "content": user_message})
     else:
-        # Tone generation — use RAG
         context = query_rag(req.vst_name, req.band_name or user_message)
         system = TONY_SYSTEM_PROMPT
         prompt = f"""CONTEXT FROM KNOWLEDGE BASE:
@@ -69,7 +78,6 @@ Band: {req.band_name or user_message}
 
 Generate the exact tone settings. Follow the output format exactly including markdown tables."""
 
-        # Include history so feedback loop works
         messages = [{"role": "system", "content": system}]
         for h in (req.chat_history or []):
             if h.get("role") in ("user", "assistant"):

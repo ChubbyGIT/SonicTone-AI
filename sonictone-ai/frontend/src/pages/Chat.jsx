@@ -4,18 +4,20 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Sidebar from '../components/Sidebar.jsx'
 import ChatWindow from '../components/ChatWindow.jsx'
 import { useChat } from '../hooks/useChat.js'
+import { useAuth } from '../hooks/useAuth.js'
 
 export default function Chat() {
   const location = useLocation()
   const navigate = useNavigate()
   const { chatId } = useParams()
   const homeState = location.state
+  const { user, signOut } = useAuth()
 
   const {
     chats, activeChatId, activeChat,
     createChat, deleteChat, renameChat,
     addMessage, setActiveChatId, updateLastMessage,
-  } = useChat()
+  } = useChat(user)
 
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const initDone = useRef(false)
@@ -25,17 +27,12 @@ export default function Chat() {
     initDone.current = true
 
     if (chatId) {
-      // Opening existing chat from URL
+      // Loading existing chat from URL — just set it active
       setActiveChatId(chatId)
-    } else if (homeState?.band) {
-      // Coming from home — create chat and navigate into it
-      const id = createChat(homeState.vst, homeState.band)
-      if (id) {
-        setActiveChatId(id)
-        navigate(`/chat/${id}`, { replace: true, state: homeState })
-      }
     }
-  }, [])
+    // Note: if coming from home, chat was already created there
+    // homeState.fromHome flag confirms this
+  }, [chatId])
 
   const handleSelectChat = (id) => {
     setActiveChatId(id)
@@ -66,6 +63,8 @@ export default function Chat() {
               onDelete={deleteChat}
               onRename={renameChat}
               onBack={() => navigate('/home')}
+              onSignOut={signOut}
+              user={user}
             />
           </motion.div>
         )}
@@ -73,7 +72,8 @@ export default function Chat() {
 
       <button
         onClick={() => setSidebarOpen(o => !o)}
-        className="absolute top-4 z-50 w-8 h-8 glass rounded-lg flex items-center justify-center text-white/40 hover:text-white/80 transition-colors"
+        className="absolute top-4 z-50 w-8 h-8 glass rounded-lg flex items-center justify-center
+          text-white/40 hover:text-white/80 transition-colors"
         style={{ left: sidebarOpen ? '268px' : '16px' }}
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

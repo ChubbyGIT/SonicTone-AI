@@ -1,107 +1,100 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
-import { v4 as uuidv4 } from 'uuid'
+import { useState, useEffect, useCallback } from 'react'
+import { supabase } from '../lib/supabase.js'
 
-const STORAGE_KEY = 'sonictone_chats'
-
-function loadChats() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    return raw ? JSON.parse(raw) : []
-  } catch { return [] }
-}
-
-function saveChats(chats) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(chats))
-}
-
-export function useChat() {
-  const [chats, setChats] = useState(loadChats)
+export function useChat(user) {
+  const [chats, setChats] = useState([])
   const [activeChatId, setActiveChatId] = useState(null)
+  const [loading, setLoading] = useState(true)
 
-  // Use a ref to track messages separately during streaming
-  // This prevents sidebar re-renders on every token
-  const messagesRef = useRef({})
-  const creatingRef = useRef(false)
-
-  // Only save to localStorage when chats structure changes (not during streaming)
   useEffect(() => {
-    saveChats(chats)
-  }, [chats])
+    if (!user) {
+      setChats([])
+      setLoading(false)
+      return
+    }
+    loadChats()
+  }, [user?.id])
+
+  const loadChats = async () => {
+    setLoading(true)
+    const { data, error } = await supabase
+      .from('chats')
+      .select('*')
+      .eq('user_id', user.id)           // ← user-specific isolation
+      .order('created_at', { ascending: false })
+    if (!error && data) setChats(data)
+    setLoading(false)
+  }
 
   const activeChat = chats.find(c => c.id === activeChatId) || null
 
-  const createChat = useCallback((vst, band) => {
-    // Hard guard against double creation
-    if (creatingRef.current) return null
-    creatingRef.current = true
-
-    const id = uuidv4()
+  const createChat = useCallback(async (vst, band) => {
+    if (!user) return null
     const title = vst ? `${vst} → ${band}` : `Any VST → ${band}`
-    const newChat = {
-      id, title,
-      vst: vst || null,
-      band,
-      messages: [],
-      createdAt: new Date().toISOString(),
+    const { data, error } = await supabase
+      .from('chats')
+      .insert({
+        user_id: user.id,
+        title,
+        vst: vst || null,
+        band,
+        messages: [],
+      })
+      .select()
+      .single()
+
+    if (error || !data) {
+      console.error('createChat error:', error)
+      return null
     }
+    setChats(prev => [data, ...prev])
+    setActiveChatId(data.id)
+    return data.id
+  }, [user])
 
-    setChats(prev => {
-      // Don't add if a chat for this band+vst already exists with no messages
-      const duplicate = prev.find(
-        c => c.band === band && c.vst === (vst || null) && c.messages.length === 0
-      )
-      if (duplicate) {
-        creatingRef.current = false
-        return prev
-      }
-      return [newChat, ...prev]
-    })
-
-    setTimeout(() => { creatingRef.current = false }, 800)
-    return id
+  const deleteChat = useCallback(async (id) => {
+    await supabase.from('chats').delete().eq('id', id)
+    setChats(prev => prev.filter(c => c.id !== id))
+    setActiveChatId(prev => prev === id ? null : prev)
   }, [])
 
-  const deleteChat = useCallback((id) => {
-    setChats(prev => prev.filter(c => c.id !== id))
-    if (activeChatId === id) setActiveChatId(null)
-  }, [activeChatId])
-
-  const renameChat = useCallback((id, title) => {
+  const renameChat = useCallback(async (id, title) => {
+    await supabase.from('chats').update({ title }).eq('id', id)
     setChats(prev => prev.map(c => c.id === id ? { ...c, title } : c))
   }, [])
 
-  // addMessage only updates the specific chat's message list
   const addMessage = useCallback((chatId, message) => {
-    setChats(prev => prev.map(c =>
-      c.id === chatId
-        ? { ...c, messages: [...c.messages, message] }
-        : c
-    ))
+    setChats(prev => prev.map(c => {
+      if (c.id !== chatId) return c
+      const updated = [...(c.messages || []), message]
+      return { ...c, messages: updated }
+    }))
   }, [])
 
-  // KEY FIX: updateLastMessage uses a ref-based approach
-  // It batches streaming updates and only triggers a re-render
-  // when content actually changes, without touching other chats
   const updateLastMessage = useCallback((chatId, content, streaming) => {
     setChats(prev => {
-      const chatIndex = prev.findIndex(c => c.id === chatId)
-      if (chatIndex === -1) return prev
-
-      const chat = prev[chatIndex]
-      const messages = chat.messages
+      const idx = prev.findIndex(c => c.id === chatId)
+      if (idx === -1) return prev
+      const chat = prev[idx]
+      const messages = [...(chat.messages || [])]
       const lastIdx = messages.length - 1
-
       if (lastIdx < 0 || messages[lastIdx].role !== 'tony') return prev
-
-      // Skip if nothing changed — prevents unnecessary re-renders
       const last = messages[lastIdx]
       if (last.content === content && last.streaming === streaming) return prev
-
-      const updatedMessages = [...messages]
-      updatedMessages[lastIdx] = { ...last, content, streaming }
-
+      messages[lastIdx] = { ...last, content, streaming }
       const updatedChats = [...prev]
-      updatedChats[chatIndex] = { ...chat, messages: updatedMessages }
+      updatedChats[idx] = { ...chat, messages }
+
+      // Persist to Supabase only when streaming ends
+      if (!streaming) {
+        supabase
+          .from('chats')
+          .update({ messages })
+          .eq('id', chatId)
+          .then(({ error }) => {
+            if (error) console.error('updateLastMessage save error:', error)
+          })
+      }
       return updatedChats
     })
   }, [])
@@ -110,6 +103,7 @@ export function useChat() {
     chats,
     activeChatId,
     activeChat,
+    loading,
     createChat,
     deleteChat,
     renameChat,
