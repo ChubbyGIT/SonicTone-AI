@@ -57,8 +57,8 @@ export default function ChatWindow({
 
   const buildHistory = (messages) => {
     return (messages || [])
-      .filter(m => (m.role === 'user' || m.role === 'tony') && m.content)
-      .map(m => ({ role: m.role === 'tony' ? 'assistant' : 'user', content: m.content }))
+      .filter(m => (m.role === 'user' || m.role === 'sonic') && m.content)
+      .map(m => ({ role: m.role === 'sonic' ? 'assistant' : 'user', content: m.content }))
   }
 
   const streamResponse = async (userText, chatId, vstName, bandName, forceTone = false) => {
@@ -66,7 +66,7 @@ export default function ChatWindow({
     setStreaming(true)
 
     addMessage(chatId, { id: Date.now().toString(), role: 'user', content: userText })
-    addMessage(chatId, { id: (Date.now() + 1).toString(), role: 'tony', content: '', streaming: true })
+    addMessage(chatId, { id: (Date.now() + 1).toString(), role: 'sonic', content: '', streaming: true })
 
     const isThisFeedback = isFeedback(userText)
     const isTone = forceTone || isToneRequest(userText) || isThisFeedback
@@ -145,7 +145,7 @@ export default function ChatWindow({
   const bg = isDark ? '#020202' : '#faf6e9'
   const headerBg = isDark ? 'rgba(4,4,2,0.8)' : 'rgba(250,246,233,0.9)'
   const userMsgBg = isDark ? 'rgba(212,175,55,0.1)' : 'rgba(212,175,55,0.12)'
-  const tonyMsgBg = isDark ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.85)'
+  const sonicMsgBg = isDark ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.85)'
   const inputColor = isDark ? '#FFD700' : '#8B6914'
   const mutedColor = isDark ? 'rgba(212,175,55,0.4)' : 'rgba(139,109,20,0.6)'
   const selectBg = isDark ? '#111' : '#faf0d0'
@@ -248,15 +248,15 @@ export default function ChatWindow({
       <div className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
         <AnimatePresence initial={false}>
           {chat?.messages
-            ?.filter(msg => !(msg.role === 'tony' && !msg.content))
+            ?.filter(msg => !(msg.role === 'sonic' && !msg.content))
             .map((msg) => (
               <motion.div key={msg.id}
                 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.25 }}
                 className={`flex items-start ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
 
-                {/* Tony icon — left */}
-                {msg.role === 'tony' && (
+                {/* Sonic icon — left */}
+                {msg.role === 'sonic' && (
                   <div className="w-7 h-7 rounded-full overflow-hidden flex-shrink-0 mr-3 mt-1"
                     style={{ boxShadow: '0 0 12px rgba(255,215,0,0.3)' }}>
                     <img src={aiIcon} alt="Sonic" className="w-full h-full object-cover" />
@@ -266,13 +266,13 @@ export default function ChatWindow({
                 <div className={`max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed
                   ${msg.role === 'user' ? 'rounded-tr-sm' : 'rounded-tl-sm'}`}
                   style={{
-                    background: msg.role === 'user' ? userMsgBg : tonyMsgBg,
+                    background: msg.role === 'user' ? userMsgBg : sonicMsgBg,
                     border: msg.role === 'user'
                       ? '1px solid rgba(212,175,55,0.2)'
                       : `1px solid ${isDark ? 'rgba(212,175,55,0.08)' : 'rgba(0,0,0,0.06)'}`,
                     color: msg.role === 'user' ? '#FFD700' : (isDark ? 'rgba(255,255,255,0.85)' : 'rgba(0,0,0,0.8)'),
                   }}>
-                  {msg.role === 'tony'
+                  {msg.role === 'sonic'
                     ? <ToneContent content={msg.content} streaming={msg.streaming} isDark={isDark} />
                     : <span>{msg.content}</span>
                   }
@@ -293,7 +293,7 @@ export default function ChatWindow({
         {/* Thinking dots */}
         {isStreaming &&
           chat?.messages?.length > 0 &&
-          chat.messages[chat.messages.length - 1]?.role === 'tony' &&
+          chat.messages[chat.messages.length - 1]?.role === 'sonic' &&
           !chat.messages[chat.messages.length - 1]?.content && (
           <div className="flex items-center gap-3">
             <div className="w-7 h-7 rounded-full overflow-hidden flex-shrink-0"

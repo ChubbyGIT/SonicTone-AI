@@ -1,19 +1,22 @@
 import asyncio
 import json
-import signal
 import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import Optional
-import ollama
+from groq import Groq
+
+GROQ_API_KEY = "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"
+GROQ_MODEL = "openai/gpt-oss-120b"
+client = Groq(api_key=GROQ_API_KEY)
 
 from rag import query_rag
-from tony import TONY_SYSTEM_PROMPT, TONY_GENERAL_PROMPT
+from sonic import SONIC_SYSTEM_PROMPT, SONIC_GENERAL_PROMPT
 from chat_store import save_message, list_chats, get_chat
 
-app = FastAPI(title="SonicTone AI — Tony Engine")
+app = FastAPI(title="SonicTone AI — Sonic Engine")
 
 app.add_middleware(
     CORSMiddleware,
@@ -22,9 +25,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# ── Track connected SSE clients ──
-connected_clients: set = set()
 
 
 class ToneRequest(BaseModel):
@@ -44,7 +44,7 @@ class ChatSaveRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "tony": "ready"}
+    return {"status": "ok", "sonic": "ready"}
 
 
 @app.get("/session-status")
@@ -59,18 +59,23 @@ async def generate_tone(req: ToneRequest):
     if not user_message:
         raise HTTPException(status_code=400, detail="message or band_name required")
 
+    # Always query RAG — use band/message for both tone and general requests
+    rag_context = query_rag(req.vst_name, req.band_name or user_message)
+
     if req.is_general:
-        system = TONY_GENERAL_PROMPT
+        system = SONIC_GENERAL_PROMPT
+        # Prepend RAG context to system prompt when relevant knowledge exists
+        if rag_context:
+            system = f"{SONIC_GENERAL_PROMPT}\n\n---\nRELEVANT KNOWLEDGE BASE CONTEXT (use if helpful):\n{rag_context}"
         messages = [{"role": "system", "content": system}]
         for h in (req.chat_history or []):
             if h.get("role") in ("user", "assistant"):
                 messages.append({"role": h["role"], "content": h["content"]})
         messages.append({"role": "user", "content": user_message})
     else:
-        context = query_rag(req.vst_name, req.band_name or user_message)
-        system = TONY_SYSTEM_PROMPT
+        system = SONIC_SYSTEM_PROMPT
         prompt = f"""CONTEXT FROM KNOWLEDGE BASE:
-{context}
+{rag_context}
 
 USER REQUEST:
 VST Plugin: {req.vst_name if req.vst_name else 'Any available VST (unrestricted)'}
@@ -86,23 +91,21 @@ Generate the exact tone settings. Follow the output format exactly including mar
 
     async def stream_response():
         try:
-            stream = ollama.chat(
-                model="gemma3:12b",
+            stream = client.chat.completions.create(
+                model=GROQ_MODEL,
                 messages=messages,
                 stream=True,
-                options={
-                    "temperature": 0.3 if not req.is_general else 0.7,
-                    "num_predict": 1200,
-                }
+                temperature=0.3 if not req.is_general else 0.7,
+                max_tokens=1200,
             )
             for chunk in stream:
-                token = chunk.get("message", {}).get("content", "")
+                token = chunk.choices[0].delta.content or ""
                 if token:
                     yield f"data: {json.dumps({'token': token})}\n\n"
                     await asyncio.sleep(0)
             yield "data: [DONE]\n\n"
         except Exception as e:
-            yield f"data: {json.dumps({'token': f'⚠️ Tony error: {str(e)}'})}\n\n"
+            yield f"data: {json.dumps({'token': f'⚠️ Sonic error: {str(e)}'})}\n\n"
             yield "data: [DONE]\n\n"
 
     return StreamingResponse(

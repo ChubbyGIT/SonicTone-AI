@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import { supabase } from '../lib/supabase.js'
 
-const POLL_INTERVAL = 15000  // check every 15 seconds
+const POLL_INTERVAL = 5000   // check every 5 seconds
 const BACKEND_URL = 'http://localhost:8000/session-status'
-const MAX_FAILS = 3  // sign out after 3 consecutive failures (~45s)
+const MAX_FAILS = 2           // sign out after 2 consecutive failures (~10s)
 
 export function useSessionGuard(isStreaming = false) {
   const intervalRef = useRef(null)
@@ -15,7 +15,7 @@ export function useSessionGuard(isStreaming = false) {
       if (isStreaming) return
 
       try {
-        const res = await fetch(BACKEND_URL, { signal: AbortSignal.timeout(4000) })
+        const res = await fetch(BACKEND_URL, { signal: AbortSignal.timeout(3000) })
         if (res.ok) {
           failCountRef.current = 0
         } else {

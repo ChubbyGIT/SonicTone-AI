@@ -78,7 +78,7 @@ export function useChat(user) {
       const chat = prev[idx]
       const messages = [...(chat.messages || [])]
       const lastIdx = messages.length - 1
-      if (lastIdx < 0 || messages[lastIdx].role !== 'tony') return prev
+      if (lastIdx < 0 || messages[lastIdx].role !== 'sonic') return prev
       const last = messages[lastIdx]
       if (last.content === content && last.streaming === streaming) return prev
       messages[lastIdx] = { ...last, content, streaming }
