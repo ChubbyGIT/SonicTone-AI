@@ -1,0 +1,32 @@
+SonicTone AI — Run Instructions
+
+FIRST TIME SETUP (run once)
+Step 1 — Install Python dependencies
+cd backend
+pip install -r requirements.txt
+Step 2 — Load data into ChromaDB
+python ingest.py
+Step 3 — Install frontend dependencies
+cd frontend
+npm install
+
+EVERY TIME YOU WANT TO RUN THE APP
+Open 3 terminals in VSCode and run one command in each:
+Terminal 1 — AI Model
+ollama run gemma3:12b
+Terminal 2 — Backend
+cd backend
+python main.py
+Terminal 3 — Frontend
+cd frontend
+npm run dev
+Then open browser at:
+http://localhost:5173
+
+NOTES
+
+All 3 terminals must be running at the same time
+Start Terminal 1 first (Ollama must be running before the backend)
+If you close a terminal by accident, just re-run that one command
+npm install and python ingest.py are first time only
+To stop the app, press Ctrl+C in each terminal
