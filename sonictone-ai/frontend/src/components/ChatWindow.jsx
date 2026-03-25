@@ -73,7 +73,8 @@ export default function ChatWindow({
     const history = buildHistory(chatRef.current?.messages || [])
 
     try {
-      const res = await fetch('/api/generate-tone', {
+      const API_BASE = import.meta.env.VITE_API_URL || '/api'
+      const res = await fetch(`${API_BASE}/generate-tone`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

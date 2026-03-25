@@ -1,6 +1,9 @@
 import asyncio
 import json
+import os
 import sys
+from dotenv import load_dotenv
+load_dotenv()  # loads backend/.env when running locally
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -8,7 +11,9 @@ from pydantic import BaseModel
 from typing import Optional
 from groq import Groq
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise RuntimeError("GROQ_API_KEY environment variable not set")
 GROQ_MODEL = "openai/gpt-oss-120b"
 client = Groq(api_key=GROQ_API_KEY)
 
