@@ -1,3 +1,37 @@
+/**
+ * ChatWindow.jsx — Main AI Chat Interface
+ * -----------------------------------------
+ * The primary interaction area of SonicTone AI. Handles two distinct states:
+ *
+ * ── EMPTY STATE (no activeChatId) ──
+ *   Shows a centered card with Band input + Plugin dropdown + Generate button.
+ *   Submitting creates a new chat via createChat() and fires the first tone request.
+ *
+ * ── ACTIVE CHAT STATE ──
+ *   Shows the message list + feedback chips + text input bar.
+ *   Auto-scrolls to the latest message as new tokens arrive.
+ *
+ * Streaming (SSE):
+ *   streamResponse() POSTs to /api/generate-tone and reads the response as a
+ *   Server-Sent Events stream. Each "data: {...}" line carries a { token } field
+ *   which is accumulated into fullText and written to the last message via
+ *   updateLastMessage(chatId, fullText, isStreaming). When the stream closes
+ *   (data: [DONE]), the final content is persisted to Supabase.
+ *
+ *   API base URL:
+ *     Production — VITE_API_URL env var (set in Vercel project settings)
+ *     Local dev  — falls back to '/api' which Vite proxies to localhost:8000
+ *
+ * Intent detection helpers:
+ *   isToneRequest(text) — detects tone-generation intent keywords
+ *   isFeedback(text)    — detects tweak/adjustment keywords
+ *   These determine whether the backend should run in tone-gen or general-chat mode.
+ *
+ * ToneContent (sub-component):
+ *   Parses the AI's markdown-table-heavy response into styled React elements:
+ *   markdown tables → <table>, [SECTION] headers, key: value rows, verdict badges.
+ *   Adds a blinking cursor while streaming=true.
+ */
 import { useState, useRef, useEffect, useContext } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme, StreamingContext } from '../App.jsx'

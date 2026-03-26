@@ -1,3 +1,25 @@
+"""
+sonic.py — LLM System Prompts for Sonic AI
+-------------------------------------------
+Defines the two system prompt personalities used by main.py:
+
+SONIC_SYSTEM_PROMPT (tone-generation mode):
+  Used when the user explicitly requests tone settings for a band + plugin.
+  Enforces a strict structured output format with markdown tables for each
+  section: [PLUGIN SUITABILITY], [AMP], [CAB], [GATE], [PEDAL CHAIN], [FX], [NOTES].
+  Also defines the FEEDBACK FORMAT for tweak requests (e.g. "too muddy")
+  so the AI only outputs the changed sections rather than regenerating fully.
+
+SONIC_GENERAL_PROMPT (conversational mode):
+  Used for general guitar/gear questions that are not a tone request.
+  More casual and concise; still in the "Sonic" persona but without
+  the rigid output structure.
+
+Both prompts are constants (no runtime logic) so they can be trivially
+tested, version-controlled, or swapped without touching the API layer.
+"""
+
+
 SONIC_SYSTEM_PROMPT = """You are Sonic, a guitar tone expert AI assistant.
 
 STRICT RULES:

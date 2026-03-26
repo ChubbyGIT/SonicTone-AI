@@ -1,3 +1,19 @@
+/**
+ * Login.jsx — Authentication Page
+ * ---------------------------------
+ * Handles both Sign In and Sign Up in a single card with an animated tab toggle.
+ *
+ * Modes:
+ *   'login'  — email + password → supabase.auth.signInWithPassword()
+ *   'signup' — name + age + email + password → supabase.auth.signUp()
+ *              Supabase sends a verification email; user must confirm before signing in.
+ *
+ * On successful login → navigates to /home.
+ * PublicOnly wrapper in App.jsx redirects already-logged-in users away from this page.
+ *
+ * Sub-component:
+ *   Field — reusable labeled input with gold focus border animation.
+ */
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'

@@ -1,3 +1,21 @@
+/**
+ * Chat.jsx — Chat Route Page
+ * ----------------------------
+ * Renders the full-screen chat interface: an animated sliding Sidebar on the left
+ * and a ChatWindow filling the remaining space.
+ *
+ * URL params:
+ *   /chat          — no chatId; ChatWindow shows the "new chat" input state
+ *   /chat/:chatId  — activates an existing chat by its Supabase UUID
+ *
+ * Navigation state (location.state / homeState):
+ *   { vst, band, fromHome: true } — passed from Home.jsx when the user has just
+ *   created a chat; ChatWindow reads this to auto-fire the first tone-gen request.
+ *
+ * Sidebar toggle:
+ *   A hamburger button overlays the Sidebar's right edge (or the left edge of the
+ *   ChatWindow when the sidebar is closed) and animates open/close with Framer Motion.
+ */
 import { useEffect, useState, useRef } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'

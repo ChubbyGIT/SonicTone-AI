@@ -1,27 +1,67 @@
+"""
+rag.py — Retrieval-Augmented Generation (RAG) Module
+-------------------------------------------------------
+Manages the ChromaDB vector database and provides context retrieval for the
+LLM prompts in main.py.
+
+Two ChromaDB collections:
+  plugin_collection ("plugin_settings")
+    — loaded from data/plugin_settings.json
+    — each document describes one VST plugin's controls and typical ranges
+
+  band_collection ("band_tones")
+    — loaded from data/guitar_tone_reference.txt
+    — each document contains rhythm + lead tone data for one band/artist
+
+Auto-ingest:
+  On module import, if either collection is empty, ingest_data() is called
+  automatically so the first /generate-tone request is never cold.
+
+Public API:
+  query_rag(vst_name, band_name, top_k=3) → str
+    Returns a formatted string with the top-k most relevant band tone documents
+    and plugin setting documents, separated by section headers.
+    Returns "" if both collections are empty.
+"""
+
 import chromadb
 import json
 import re
 from pathlib import Path
 
+# ChromaDB persists data to disk so it survives server restarts
 CHROMA_PATH = "./chroma_db"
 client = chromadb.PersistentClient(path=CHROMA_PATH)
 
+# Get (or create) both collections
 plugin_collection = client.get_or_create_collection("plugin_settings")
-band_collection = client.get_or_create_collection("band_tones")
+band_collection   = client.get_or_create_collection("band_tones")
 
 
 def parse_tone_reference(filepath: Path) -> list[dict]:
-    """Parse the guitar_tone_reference.txt into structured band entries."""
+    """
+    Parse data/guitar_tone_reference.txt into structured band entry dicts.
+
+    The file format uses numbered blocks like:
+      [01] METALLICA  Genre: Heavy Metal | Guitarist: James Hetfield | ...
+      ── RHYTHM TONE ─────────
+      ...
+      ── LEAD TONE ───────────
+      ...
+      ····
+
+    Returns a list of dicts with keys: id, band, genre, document.
+    """
     text = filepath.read_text(encoding='utf-8')
     bands = []
 
-    # Split by band blocks using the numbered pattern [01], [02] etc.
+    # Split the file into band blocks using the [01], [02] ... pattern
     band_blocks = re.split(r'\n\s*\[(\d+)\]\s+', text)
 
-    # band_blocks[0] is the header, then alternating: number, content
+    # band_blocks[0] = file header; then pairs of (number, content)
     i = 1
     while i < len(band_blocks) - 1:
-        number = band_blocks[i]
+        number  = band_blocks[i]
         content = band_blocks[i + 1]
         i += 2
 
@@ -29,36 +69,33 @@ def parse_tone_reference(filepath: Path) -> list[dict]:
         if not lines:
             continue
 
-        # First line is band name + genre + guitarist + era
+        # First line contains: Band Name  Genre: ... | Guitarist: ... | Peak Era: ...
         first_line = lines[0].strip()
-        band_name = first_line  # full first line as band name
+        band_name  = first_line  # fall back to whole first line
 
-        # Try to extract cleaner band name (before Genre:)
+        # Try to extract just the band name (before "Genre:")
         name_match = re.match(r'^([A-Z][^\n]+?)(?:\s+Genre:|$)', first_line)
         if name_match:
             band_name = name_match.group(1).strip()
 
-        # Extract genre, guitarist, era from next lines
+        # Extract metadata fields from the first few lines
         genre = ''
         guitarist = ''
         era = ''
         for line in lines[:5]:
             if 'Genre:' in line:
-                genre_match = re.search(r'Genre:\s*([^|]+)', line)
-                if genre_match:
-                    genre = genre_match.group(1).strip()
+                m = re.search(r'Genre:\s*([^|]+)', line)
+                if m: genre = m.group(1).strip()
             if 'Guitarist:' in line:
-                guit_match = re.search(r'Guitarist:\s*([^|]+)', line)
-                if guit_match:
-                    guitarist = guit_match.group(1).strip()
+                m = re.search(r'Guitarist:\s*([^|]+)', line)
+                if m: guitarist = m.group(1).strip()
             if 'Peak Era:' in line:
-                era_match = re.search(r'Peak Era:\s*(.+)', line)
-                if era_match:
-                    era = era_match.group(1).strip()
+                m = re.search(r'Peak Era:\s*(.+)', line)
+                if m: era = m.group(1).strip()
 
-        # Extract rhythm and lead sections
+        # Extract the RHYTHM TONE and LEAD TONE sections
         rhythm_section = ''
-        lead_section = ''
+        lead_section   = ''
 
         rhythm_match = re.search(
             r'──\s*RHYTHM TONE\s*─+\s*(.*?)(?=──\s*LEAD TONE|····|$)',
@@ -69,12 +106,10 @@ def parse_tone_reference(filepath: Path) -> list[dict]:
             content, re.DOTALL
         )
 
-        if rhythm_match:
-            rhythm_section = rhythm_match.group(1).strip()
-        if lead_match:
-            lead_section = lead_match.group(1).strip()
+        if rhythm_match: rhythm_section = rhythm_match.group(1).strip()
+        if lead_match:   lead_section   = lead_match.group(1).strip()
 
-        # Build the full document for RAG
+        # Build the plain-text document that will be embedded by ChromaDB
         doc = f"""BAND: {band_name}
 GENRE: {genre}
 GUITARIST: {guitarist}
@@ -87,9 +122,9 @@ LEAD TONE:
 {lead_section}
 """
         bands.append({
-            'id': f"band_{number.zfill(3)}",
-            'band': band_name,
-            'genre': genre,
+            'id':       f"band_{number.zfill(3)}",
+            'band':     band_name,
+            'genre':    genre,
             'document': doc,
         })
 
@@ -97,10 +132,15 @@ LEAD TONE:
 
 
 def ingest_data():
-    """Ingest plugin and band data into ChromaDB."""
+    """
+    Load data files and upsert documents into ChromaDB.
+
+    Called automatically on startup when either collection is empty.
+    Can also be run manually via backend/ingest.py.
+    """
     data_dir = Path(__file__).parent / "data"
 
-    # ── Ingest plugin settings (JSON) ──
+    # ── Plugin settings (JSON) ────────────────────────────────────────────────
     plugin_file = data_dir / "plugin_settings.json"
     if plugin_file.exists():
         with open(plugin_file) as f:
@@ -108,6 +148,7 @@ def ingest_data():
 
         plugin_docs, plugin_ids, plugin_metas = [], [], []
         for i, plugin in enumerate(plugins):
+            # Flatten the plugin object into a plain-text document for embedding
             doc = f"""Plugin: {plugin['plugin']}
 Type: {plugin['type']}
 Controls: {json.dumps(plugin['controls'], indent=2)}
@@ -128,13 +169,13 @@ Controls: {json.dumps(plugin['controls'], indent=2)}
     else:
         print("⚠️  plugin_settings.json not found, skipping")
 
-    # ── Ingest band tones (TXT) ──
+    # ── Band tones (TXT) ──────────────────────────────────────────────────────
     tone_file = data_dir / "guitar_tone_reference.txt"
     if tone_file.exists():
         bands = parse_tone_reference(tone_file)
 
-        band_docs = [b['document'] for b in bands]
-        band_ids = [b['id'] for b in bands]
+        band_docs  = [b['document'] for b in bands]
+        band_ids   = [b['id']       for b in bands]
         band_metas = [{'band': b['band'], 'genre': b['genre']} for b in bands]
 
         if band_docs:
@@ -149,26 +190,47 @@ Controls: {json.dumps(plugin['controls'], indent=2)}
 
 
 def query_rag(vst_name: str | None, band_name: str, top_k: int = 3) -> str:
-    """Query ChromaDB for relevant context."""
+    """
+    Query ChromaDB for context relevant to the given band and optional VST.
+
+    Returns a multi-section string:
+      === BAND TONE DATA ===
+      <top_k band tone documents>
+
+      === PLUGIN SETTINGS DATA ===
+      <top_k plugin documents>
+
+    Returns "" if both collections are empty (e.g. first run before ingest).
+
+    Args:
+      vst_name  — full plugin name for the plugin query; if None, uses a generic
+                  guitar amp query so we still get some plugin context
+      band_name — used to build the band semantic query
+      top_k     — max number of results per collection (capped by collection size)
+    """
     context_parts = []
 
-    # Query band tones
+    # ── Band tone retrieval ───────────────────────────────────────────────────
     band_query = f"{band_name} guitar tone EQ settings rhythm lead"
     band_count = band_collection.count()
     if band_count > 0:
         band_results = band_collection.query(
             query_texts=[band_query],
-            n_results=min(top_k, band_count)
+            n_results=min(top_k, band_count)  # can't request more than collection size
         )
         if band_results["documents"][0]:
             context_parts.append("=== BAND TONE DATA ===")
             for doc in band_results["documents"][0]:
                 context_parts.append(doc)
 
-    # Query plugin settings
+    # ── Plugin settings retrieval ─────────────────────────────────────────────
     plugin_count = plugin_collection.count()
     if plugin_count > 0:
-        plugin_query = f"{vst_name} controls parameters" if vst_name else "guitar amp plugin controls gain bass treble"
+        plugin_query = (
+            f"{vst_name} controls parameters"
+            if vst_name
+            else "guitar amp plugin controls gain bass treble"
+        )
         plugin_results = plugin_collection.query(
             query_texts=[plugin_query],
             n_results=min(top_k, plugin_count)
@@ -181,7 +243,9 @@ def query_rag(vst_name: str | None, band_name: str, top_k: int = 3) -> str:
     return "\n\n".join(context_parts)
 
 
-# Auto-ingest on import if DB is empty
+# ── Auto-ingest on import ─────────────────────────────────────────────────────
+# If the DB was just created (both collections empty), populate it immediately.
+# Wrapped in try/except so a missing data file doesn't block the server start.
 try:
     if plugin_collection.count() == 0 or band_collection.count() == 0:
         ingest_data()

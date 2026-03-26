@@ -1,46 +1,67 @@
+/**
+ * useSessionGuard.js — Session Liveness Guard
+ * ---------------------------------------------
+ * Protects authenticated routes by ensuring the session stays valid.
+ *
+ * Two strategies run in parallel:
+ *
+ * 1. Supabase-native watcher (ALL environments)
+ *    Subscribes to onAuthStateChange. If the Supabase JWT can't be refreshed
+ *    (network issue, token revoked, session expired), Supabase fires SIGNED_OUT
+ *    which useAuth already handles with a /login redirect. This is the
+ *    production-safe strategy since it doesn't rely on the backend being up.
+ *
+ * 2. Local dev only: backend health-poll
+ *    Polls GET /session-status on the FastAPI server every 5 seconds.
+ *    After MAX_FAILS consecutive failures it signs the user out.
+ *    This simulates "backend down → log out" behavior during local development.
+ *    ⚠️  This poll is intentionally DISABLED in production (IS_DEV guard)
+ *        because the FastAPI backend is not deployed alongside the Vercel frontend.
+ *
+ * @param {boolean} isStreaming — when true, health-checks are skipped so we
+ *                                never abort a streaming response mid-generation.
+ */
+
 import { useEffect, useRef } from 'react'
 import { supabase } from '../lib/supabase.js'
 
-// Only poll in local dev — in production the backend lives on Vercel,
-// not localhost, so this guard is not meaningful there.
-const IS_DEV = import.meta.env.DEV
-const BACKEND_URL = 'http://localhost:8000/session-status'
-const POLL_INTERVAL = 5000   // every 5 seconds
-const MAX_FAILS = 2           // sign out after 2 consecutive failures (~10s)
+// Detect dev vs production at build time via Vite's import.meta.env.DEV
+const IS_DEV         = import.meta.env.DEV
+const BACKEND_URL    = 'http://localhost:8000/session-status'
+const POLL_INTERVAL  = 5000   // ms between health-checks
+const MAX_FAILS      = 2      // consecutive failures before sign-out (~10 s)
 
 export function useSessionGuard(isStreaming = false) {
-  const intervalRef = useRef(null)
-  const failCountRef = useRef(0)
+  const intervalRef  = useRef(null)  // stores the setInterval handle for cleanup
+  const failCountRef = useRef(0)     // counts consecutive backend failures
 
-  // ── Supabase-native session watcher (works in ALL environments) ──
-  // If the Supabase token can't be refreshed (expired, revoked, network issue),
-  // it fires a SIGNED_OUT event which useAuth already handles globally.
-  // This is the production-safe guard.
+  // ── Strategy 1: Supabase token watcher (runs in all environments) ─────────
   useEffect(() => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
-      if (event === 'SIGNED_OUT' || event === 'TOKEN_REFRESHED') {
-        // TOKEN_REFRESHED is fine — just keep going.
-        // SIGNED_OUT will be caught by useAuth which redirects to /login.
+      if (event === 'TOKEN_REFRESHED') {
+        // Token was silently refreshed — session is healthy, nothing to do
       }
+      // SIGNED_OUT is handled globally by useAuth which redirects to /login
     })
     return () => subscription.unsubscribe()
   }, [])
 
-  // ── Local dev only: poll backend health, sign out if server goes down ──
+  // ── Strategy 2: Local dev backend health-poll ────────────────────────────
   useEffect(() => {
-    if (!IS_DEV) return  // skip entirely in production
+    if (!IS_DEV) return // skip entirely in production builds
 
     const checkBackend = async () => {
-      if (isStreaming) return  // never check mid-generation
+      if (isStreaming) return // never interrupt a live stream
 
       try {
         const res = await fetch(BACKEND_URL, { signal: AbortSignal.timeout(3000) })
         if (res.ok) {
-          failCountRef.current = 0
+          failCountRef.current = 0 // backend responded — reset fail counter
         } else {
           await handleFail()
         }
       } catch {
+        // Network error or timeout counts as a failure
         await handleFail()
       }
     }
@@ -49,14 +70,14 @@ export function useSessionGuard(isStreaming = false) {
       failCountRef.current += 1
       console.warn(`[SessionGuard] Backend unreachable (${failCountRef.current}/${MAX_FAILS})`)
       if (failCountRef.current >= MAX_FAILS) {
-        clearInterval(intervalRef.current)
+        clearInterval(intervalRef.current) // stop polling — we're about to sign out
         console.warn('[SessionGuard] Backend down — signing out user')
         await supabase.auth.signOut()
-        // useAuth onAuthStateChange will redirect to /login
+        // useAuth onAuthStateChange SIGNED_OUT handler will redirect to /login
       }
     }
 
     intervalRef.current = setInterval(checkBackend, POLL_INTERVAL)
-    return () => clearInterval(intervalRef.current)
+    return () => clearInterval(intervalRef.current) // cleanup on unmount or isStreaming change
   }, [isStreaming])
 }

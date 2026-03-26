@@ -1,3 +1,22 @@
+/**
+ * Home.jsx — Landing / Tone Generator Page
+ * ------------------------------------------
+ * The main entry point for authenticated users. Lets them select a VST plugin
+ * and type a band name, then creates a new chat session and navigates to /chat/:id
+ * where the AI auto-generates the tone settings.
+ *
+ * Features:
+ *   • Parallax gold-mesh background that follows mouse movement (Framer Motion springs)
+ *   • Animated particle noise overlay for texture
+ *   • SoundWave decoration strip at the top
+ *   • VST plugin dropdown + band name input
+ *   • On submit → createChat(vst, band) + navigate to /chat/:id with homeState
+ *
+ * Band images from ../assets/bands/* are imported eagerly via import.meta.glob
+ * for future use in the UI, but currently stored in BAND_IMAGES array.
+ *
+ * BAND_SUGGESTIONS is a static list used as placeholder hints in the input.
+ */
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'

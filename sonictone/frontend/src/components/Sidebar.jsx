@@ -1,3 +1,31 @@
+/**
+ * Sidebar.jsx — Chat History Sidebar
+ * -------------------------------------
+ * A 260px-wide persistent panel that displays the user's chat history grouped
+ * by recency (Today / Yesterday / Earlier), with inline rename and delete.
+ *
+ * Sub-components (both memoized for performance):
+ *
+ *   ChatItem — renders a single chat row with:
+ *     • Inline rename on pencil-icon click (autoFocus input, blur/Enter/Escape to commit)
+ *     • Delete button (on hover) with confirmation via onDelete callback
+ *     • Active indicator: left gold bar + highlighted background
+ *     • Custom equality check to skip re-renders when id/title/active haven't changed
+ *
+ *   ChatGroup — renders a labelled section (e.g. "TODAY") with a list of ChatItems.
+ *     • Also memoized; skips re-render when item list content is unchanged.
+ *
+ * Sidebar props:
+ *   chats        {array}    — full list of chat objects from useChat
+ *   activeChatId {string}   — UUID of the currently selected chat
+ *   onSelect     {fn}       — called with chat.id when user clicks a chat
+ *   onNew        {fn}       — called when "New Chat" button is clicked
+ *   onDelete     {fn}       — called with chat.id to delete
+ *   onRename     {fn}       — called with (chat.id, newTitle) to rename
+ *   onBack       {fn}       — navigates back to /home
+ *   onSignOut    {fn}       — signs out via useAuth
+ *   user         {object}   — Supabase user object (for name/email in footer)
+ */
 import { useState, memo, useMemo } from 'react'
 import { useTheme } from '../App.jsx'
 import aiIcon from '../assets/ai-icon.png'
