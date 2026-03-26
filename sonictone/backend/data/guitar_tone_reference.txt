@@ -1,0 +1,4457 @@
+================================================================================
+GUITAR TONE SIGNATURE REFERENCE — AI VST RECOMMENDATION DATABASE
+================================================================================
+PURPOSE: Each band's lead and rhythm tone definitions are designed for use
+         by an AI to recommend accurate VST plugin settings (amp sims,
+         pedals, EQ curves) matching each band's signature peak-era sound.
+NOTE:    Bands are placed in their peak popularity era, not origin era.
+         e.g. Metallica → late 80s peak | Gojira → mid/late 2010s peak
+
+
+================================================================================
+  ERA: 70s  (30 bands)
+================================================================================
+
+  [01] LED ZEPPELIN
+       Genre: Hard Rock / Blues Rock  |  Guitarist: Jimmy Page
+       Peak Era: 1969–1975
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall Super Bass / Marshall Plexi 1959
+     Guitar:      Gibson Les Paul Standard (Burst), Telecaster on early recordings
+     Pickups:     Humbuckers (Les Paul), Single coil (Tele)
+     Gain:        medium-high crunch, amp-driven breakup, no pedal OD
+     EQ:          scooped low-mids slightly, boosted presence, warm bass
+     Character:   Thick, raw, slightly loose low end, warm and woody with amp-natural grit
+     Effects:     Minimal — occasional studio reverb, bow on guitar for textures
+     Keywords:    plexi crunch, natural amp breakup, woody, vintage british
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall Plexi 1959 cranked
+     Guitar:      Gibson Les Paul Standard
+     Pickups:     Bridge humbucker
+     Gain:        high, amp cranked to natural breakup
+     EQ:          full mids, warm treble, sustained low end
+     Character:   Smooth sustain, vocal-like lead, slightly compressed, harmonically rich
+     Effects:     Echoplex tape delay (subtle), Sola Sound Tone Bender fuzz for certain leads
+     Keywords:    cranked plexi, singing sustain, fuzz leads, tape echo
+
+  ····························································
+
+  [02] BLACK SABBATH
+       Genre: Heavy Metal / Doom Rock  |  Guitarist: Tony Iommi
+       Peak Era: 1970–1975
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Laney Supergroup / Sound City 120
+     Guitar:      Gibson SG Standard (tuned down to C# or lower)
+     Pickups:     Humbuckers
+     Gain:        medium crunch, heavy and thick
+     EQ:          heavy bass, scooped upper mids, dark treble, thick low-mids
+     Character:   Dark, heavy, slow-moving wall of sound, detuned menace
+     Effects:     Wah used rhythmically on some tracks, Rangemaster treble booster
+     Keywords:    dark crunch, detuned, heavy bass, treble boost, doom
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Laney Supergroup cranked
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        high gain, compressed sustain
+     EQ:          boosted mids for cut, warm treble
+     Character:   Fast, fluid, bluesy with dark undertones, legato phrasing
+     Effects:     Subtle reverb, occasional wah
+     Keywords:    fluid leads, dark sustain, blues-inflected, fast legato
+
+  ····························································
+
+  [03] DEEP PURPLE
+       Genre: Hard Rock / Heavy Metal  |  Guitarist: Ritchie Blackmore
+       Peak Era: 1970–1973 (Mark II lineup)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall Major 200W / Marshall 1959 Plexi
+     Guitar:      Fender Stratocaster
+     Pickups:     Single coil bridge
+     Gain:        medium-high crunch, bright and cutting
+     EQ:          bright treble, scooped low-mids, cutting presence
+     Character:   Bright, snappy, classical-inflected hard rock crunch
+     Effects:     Minimal
+     Keywords:    bright plexi, strat crunch, cutting mids, classical rock
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall 200W cranked
+     Guitar:      Fender Stratocaster
+     Pickups:     Bridge single coil
+     Gain:        high, uses volume swells and picking dynamics
+     EQ:          presence boosted, upper mids forward
+     Character:   Screaming, harmonically complex, neoclassical phrasing
+     Effects:     Spring reverb
+     Keywords:    neoclassical leads, strat scream, presence forward, dynamic picking
+
+  ····························································
+
+  [04] AC/DC
+       Genre: Hard Rock  |  Guitarist: Angus Young (lead), Malcolm Young (rhythm)
+       Peak Era: 1975–1981 (Bon Scott era and Back in Black)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall 1959 SLP / Marshall 2203 JMP
+     Guitar:      Gretsch Jet Firebird / Gibson ES-335 (Malcolm)
+     Pickups:     Humbuckers
+     Gain:        medium crunch, mid-forward, punchy
+     EQ:          prominent mids, moderate bass, controlled treble
+     Character:   Punchy, tight, mid-forward hard rock chug — the backbone of the mix
+     Effects:     None
+     Keywords:    mid-forward crunch, punchy, tight, marshall JMP, no effects
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall 1959 SLP cranked
+     Guitar:      Gibson SG Standard
+     Pickups:     Bridge humbucker
+     Gain:        high, amp-natural, almost at feedback edge
+     EQ:          full mids, presence forward
+     Character:   Raw, raunchy, bluesy, aggressive — controlled chaos
+     Effects:     Minimal reverb
+     Keywords:    raunchy SG leads, bluesy, raw amp, on-the-edge feedback
+
+  ····························································
+
+  [05] AEROSMITH
+       Genre: Hard Rock / Blues Rock  |  Guitarist: Joe Perry (lead), Brad Whitford (rhythm)
+       Peak Era: 1973–1977
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP / Fender Twin
+     Guitar:      Gibson Les Paul / ES-335
+     Pickups:     Humbuckers
+     Gain:        medium crunch, loose and sleazy
+     EQ:          warm mids, smooth treble, full low end
+     Character:   Sleazy, loose, bluesy hard rock — thick and organic
+     Effects:     Wah occasionally
+     Keywords:    sleazy crunch, loose low end, bluesy, organic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JMP cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, vocal and expressive
+     EQ:          mid-heavy, warm
+     Character:   Expressive, bluesy, wide vibrato, warm sustain
+     Effects:     Wah, echo
+     Keywords:    expressive leads, blues rock, wah, wide vibrato
+
+  ····························································
+
+  [06] KISS
+       Genre: Hard Rock / Glam Metal  |  Guitarist: Ace Frehley (lead), Paul Stanley (rhythm)
+       Peak Era: 1975–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Hiwatt
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch, catchy and punchy
+     EQ:          balanced, slight mid boost
+     Character:   Punchy, radio-friendly hard rock crunch
+     Effects:     Light chorus occasionally
+     Keywords:    punchy hard rock, balanced crunch, les paul
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward, treble bright
+     Character:   Fun, melodic, catchy — space-themed flair
+     Effects:     Echoplex delay, wah
+     Keywords:    melodic leads, echo, wah, expressive
+
+  ····························································
+
+  [07] THIN LIZZY
+       Genre: Hard Rock  |  Guitarist: Scott Gorham + Brian Robertson / Gary Moore
+       Peak Era: 1975–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, full mids
+     Character:   Warm, tight dual-guitar layered crunch — classic twin-harmony foundation
+     Effects:     Minimal
+     Keywords:    dual harmony rhythm, warm crunch, les paul, full mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JMP cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, smooth sustain
+     EQ:          mids forward, smooth treble
+     Character:   Melodic harmonized leads, singing sustain — iconic twin-lead harmony
+     Effects:     Subtle reverb
+     Keywords:    twin harmony leads, melodic, smooth sustain, harmonized
+
+  ····························································
+
+  [08] FLEETWOOD MAC
+       Genre: Soft Rock / Pop Rock  |  Guitarist: Lindsey Buckingham
+       Peak Era: 1975–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin Reverb
+     Guitar:      Gibson Les Paul / acoustic
+     Pickups:     Humbuckers / acoustic
+     Gain:        clean to light crunch
+     EQ:          bright, airy, glassy
+     Character:   Bright, clean, fingerpicked texture — pop sheen with occasional grit
+     Effects:     Chorus, light reverb
+     Keywords:    bright clean, fingerpicked, airy, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin Reverb
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        light breakup
+     EQ:          balanced, bright
+     Character:   Melodic, pop-friendly, clean-to-edge-of-breakup
+     Effects:     Reverb, delay
+     Keywords:    clean lead, pop melodic, bright, reverb
+
+  ····························································
+
+  [09] THE EAGLES
+       Genre: Country Rock / Soft Rock  |  Guitarist: Don Felder + Joe Walsh
+       Peak Era: 1974–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Deluxe Reverb / Marshall
+     Guitar:      Gibson Les Paul / Telecaster
+     Pickups:     Humbuckers / Single coil
+     Gain:        clean to light crunch
+     EQ:          warm, balanced, country twang element
+     Character:   Warm, polished, country-tinged clean to mild crunch
+     Effects:     Reverb
+     Keywords:    country clean, warm, polished, fender clean
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall + Fender blend
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        medium-high, Hotel California style sustain
+     EQ:          full mids, presence
+     Character:   Expressive, sustained, emotive — Hotel California iconic tone
+     Effects:     Reverb, subtle delay
+     Keywords:    hotel california lead, sustained, emotive, mid-forward
+
+  ····························································
+
+  [10] QUEEN
+       Genre: Hard Rock / Glam Rock  |  Guitarist: Brian May
+       Peak Era: 1974–1980
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Vox AC30 (multiple stacked)
+     Guitar:      Red Special (homemade)
+     Pickups:     Burns Tri-Sonic pickups (single coil-like)
+     Gain:        medium crunch, layered — multiple tracks for wall of sound
+     EQ:          bright but full, presence-heavy, unique harmonic character
+     Character:   Layered, orchestral crunch — the famous Queen 'guitar orchestra' sound
+     Effects:     Phaser (MXR Phase 90), treble booster (Deacy amp-driven)
+     Keywords:    vox AC30, layered harmonies, treble boost, orchestral crunch, red special
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Vox AC30 cranked
+     Guitar:      Red Special
+     Pickups:     Bridge Tri-Sonic
+     Gain:        high, AC30 natural breakup + treble boost
+     EQ:          bright presence, cut through-mids
+     Character:   Singing, vocal quality, rich harmonics, pinch harmonics, vibrato arm
+     Effects:     Echoplex delay, Foxx Foot Phaser
+     Keywords:    vocal leads, vox crunch, rich harmonics, pinch harmonics, delay
+
+  ····························································
+
+  [11] ZZ TOP
+       Genre: Blues Rock / Hard Rock  |  Guitarist: Billy Gibbons
+       Peak Era: 1973–1979 (early era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Fender Bassman
+     Guitar:      Gibson Les Paul 'Pearly Gates'
+     Pickups:     PAF humbuckers
+     Gain:        medium crunch, bluesy
+     EQ:          warm mids, fat low end
+     Character:   Fat, warm, Texas blues-driven crunch
+     Effects:     Wah (Cry Baby)
+     Keywords:    texas blues crunch, fat tone, PAF humbuckers, wah
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge PAF
+     Gain:        high
+     EQ:          mid-forward
+     Character:   Furious, pentatonic-driven, pinch harmonics, raw feel
+     Effects:     Wah, slight delay
+     Keywords:    furious leads, pentatonic, pinch harmonics, wah lead
+
+  ····························································
+
+  [12] HEART
+       Genre: Hard Rock  |  Guitarist: Roger Fisher / Howard Leese
+       Peak Era: 1975–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson Les Paul / acoustic
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm mids, balanced
+     Character:   Classic hard rock rhythm blended with acoustic textures
+     Effects:     Light reverb
+     Keywords:    hard rock crunch, acoustic blend, warm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Classic hard rock leads, melodic
+     Effects:     Reverb, delay
+     Keywords:    melodic leads, marshall crunch, expressive
+
+  ····························································
+
+  [13] JUDAS PRIEST
+       Genre: Heavy Metal  |  Guitarist: Glenn Tipton + K.K. Downing
+       Peak Era: 1977–1982
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP / Mesa Boogie (later)
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        high gain, tight, aggressive
+     EQ:          scooped mids slightly, tight bass, presence forward
+     Character:   Crunching twin-guitar attack, tight metal rhythm — proto-thrash feel
+     Effects:     Minimal
+     Keywords:    heavy metal rhythm, tight high gain, dual guitar, marshall
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JMP cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          full mids, presence high
+     Character:   Screaming harmonized leads, fast picking, classically-shaped phrasing
+     Effects:     Reverb
+     Keywords:    screaming leads, harmonized, fast picking, high gain
+
+  ····························································
+
+  [14] BOSTON
+       Genre: Hard Rock / Arena Rock  |  Guitarist: Tom Scholz
+       Peak Era: 1976–1978
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Customized Fender / Marshall (Scholz Rockman processor)
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch, smooth and layered
+     EQ:          full and rich, balanced mids, smooth treble
+     Character:   Massively layered, studio-perfected hard rock — rich harmonic stacking
+     Effects:     Chorus, heavy reverb, delay (signature Rockman chorus/delay)
+     Keywords:    rockman chorus, layered guitars, arena rock, smooth crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Modified amp + Rockman
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, smooth
+     EQ:          mids forward, chorus-enhanced
+     Character:   Soaring, smooth sustained leads with choir-like quality
+     Effects:     Heavy chorus, reverb, delay
+     Keywords:    soaring leads, choir sustain, rockman, chorus
+
+  ····························································
+
+  [15] FOGHAT
+       Genre: Blues Rock / Hard Rock  |  Guitarist: Rod Price / Dave Peverett
+       Peak Era: 1973–1977
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, mid-forward
+     Character:   Driving, blues-rooted boogie crunch
+     Effects:     None
+     Keywords:    boogie crunch, blues rock, driving
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul / Strat
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          presence forward
+     Character:   Expressive blues-rock leads
+     Effects:     Reverb, wah
+     Keywords:    blues-rock leads, expressive, wah
+
+  ····························································
+
+  [16] LYNYRD SKYNYRD
+       Genre: Southern Rock  |  Guitarist: Gary Rossington / Allen Collins / Ed King
+       Peak Era: 1973–1977
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP / Fender Twin
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        medium crunch, southern swagger
+     EQ:          warm mids, full low end, country feel
+     Character:   Dirty, loose, southern-fried hard rock crunch — multi-guitar interplay
+     Effects:     None
+     Keywords:    southern crunch, loose feel, multi-guitar, warm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Fender
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        medium-high
+     EQ:          mids forward, warm
+     Character:   Sliding, soulful, blues-influenced — Free Bird-style epic leads
+     Effects:     Reverb
+     Keywords:    soulful leads, southern blues, free bird tone, slide guitar
+
+  ····························································
+
+  [17] CHEAP TRICK
+       Genre: Hard Rock / Power Pop  |  Guitarist: Rick Nielsen
+       Peak Era: 1977–1980
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Hiwatt
+     Guitar:      Various customs (Hamer, Gibson)
+     Pickups:     Humbuckers
+     Gain:        medium crunch, punchy
+     EQ:          bright, punchy mids
+     Character:   Bright power-pop crunch, punchy and tight
+     Effects:     Light delay
+     Keywords:    power pop crunch, punchy, bright, tight
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Hamer custom
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          presence forward
+     Character:   Fast, melodic, hard rock leads
+     Effects:     Delay, reverb
+     Keywords:    melodic leads, fast, hard rock, delay
+
+  ····························································
+
+  [18] SANTANA
+       Genre: Latin Rock / Blues Rock  |  Guitarist: Carlos Santana
+       Peak Era: 1969–1972
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Mark I (early adopter)
+     Guitar:      Gibson SG / Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch, smooth
+     EQ:          warm mids, smooth treble
+     Character:   Warm, thick, smooth crunch with Latin flavor
+     Effects:     Wah, phaser
+     Keywords:    smooth crunch, latin rock, warm, phaser
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie Mark I cranked
+     Guitar:      Gibson SG / PRS (later)
+     Pickups:     Bridge humbucker
+     Gain:        very high, infinite sustain
+     EQ:          heavy mids, warm treble
+     Character:   Singing infinite sustain — the defining Santana lead tone
+     Effects:     Rotary (Leslie), chorus, delay
+     Keywords:    infinite sustain, singing leads, mesa boogie, warm mids
+
+  ····························································
+
+  [19] WISHBONE ASH
+       Genre: British Rock  |  Guitarist: Andy Powell + Ted Turner
+       Peak Era: 1970–1974
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson Flying V
+     Pickups:     Humbuckers
+     Gain:        medium
+     EQ:          balanced
+     Character:   Classic British rock harmony-based rhythm
+     Effects:     None
+     Keywords:    british rock, twin harmony, medium gain
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Flying V
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Harmonized twin leads, smooth sustain
+     Effects:     Reverb
+     Keywords:    harmonized leads, smooth, twin lead
+
+  ····························································
+
+  [20] NAZARETH
+       Genre: Hard Rock  |  Guitarist: Manny Charlton
+       Peak Era: 1973–1977
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch
+     EQ:          warm, mid-forward
+     Character:   Raw hard rock crunch
+     Effects:     None
+     Keywords:    raw hard rock, marshall, les paul crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids heavy
+     Character:   Raw, expressive hard rock leads
+     Effects:     Reverb
+     Keywords:    raw leads, hard rock, expressive
+
+  ····························································
+
+  [21] URIAH HEEP
+       Genre: Hard Rock / Proto-Metal  |  Guitarist: Mick Box
+       Peak Era: 1970–1975
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson SG / Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch
+     EQ:          warm bass, boosted mids, dark treble
+     Character:   Dark, heavy, keyboard-augmented rock crunch
+     Effects:     None
+     Keywords:    dark crunch, proto-metal, heavy mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic hard rock leads
+     Effects:     Reverb
+     Keywords:    melodic leads, dark, hard rock
+
+  ····························································
+
+  [22] BAD COMPANY
+       Genre: Hard Rock  |  Guitarist: Mick Ralphs
+       Peak Era: 1974–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, full mids
+     Character:   Warm, driving, no-frills hard rock crunch
+     Effects:     None
+     Keywords:    warm crunch, no frills, les paul, driving
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Classic, melodic hard rock leads
+     Effects:     Reverb
+     Keywords:    classic leads, melodic, warm
+
+  ····························································
+
+  [23] BLUE ÖYSTER CULT
+       Genre: Hard Rock / Proto-Metal  |  Guitarist: Buck Dharma
+       Peak Era: 1973–1978
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson SG
+     Pickups:     Humbuckers
+     Gain:        medium
+     EQ:          balanced
+     Character:   Mid-forward rock crunch with pop sheen
+     Effects:     Chorus occasionally
+     Keywords:    rock crunch, mid-forward, pop sheen
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          presence boosted
+     Character:   Fast, fluid melodic leads
+     Effects:     Reverb
+     Keywords:    fast leads, melodic, fluid
+
+  ····························································
+
+  [24] RAINBOW
+       Genre: Heavy Metal / Hard Rock  |  Guitarist: Ritchie Blackmore
+       Peak Era: 1975–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall Major
+     Guitar:      Fender Stratocaster
+     Pickups:     Single coil bridge
+     Gain:        medium-high crunch, bright
+     EQ:          cutting treble, scooped mids
+     Character:   Bright, aggressive, neoclassical-driven hard rock rhythm
+     Effects:     None
+     Keywords:    bright strat crunch, neoclassical, cutting, marshall
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall 200W cranked
+     Guitar:      Fender Stratocaster
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          presence forward, bright
+     Character:   Neoclassical fast runs, arpeggios, harmonic minor scales
+     Effects:     Reverb
+     Keywords:    neoclassical runs, arpeggios, harmonic minor, strat lead
+
+  ····························································
+
+  [25] STATUS QUO
+       Genre: Boogie Rock / Hard Rock  |  Guitarist: Francis Rossi + Rick Parfitt
+       Peak Era: 1972–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP
+     Guitar:      Fender Telecaster / various
+     Pickups:     Single coil
+     Gain:        medium crunch, driving boogie
+     EQ:          mid-forward, punchy bass
+     Character:   Driving boogie rhythm, repetitive and hypnotic
+     Effects:     None
+     Keywords:    boogie rhythm, driving, mid-forward, tele crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Telecaster
+     Pickups:     Bridge
+     Gain:        medium-high
+     EQ:          bright and cutting
+     Character:   Punchy, blues-influenced leads
+     Effects:     Reverb
+     Keywords:    punchy leads, boogie, telecaster
+
+  ····························································
+
+  [26] SCORPIONS
+       Genre: Heavy Metal / Hard Rock  |  Guitarist: Uli Jon Roth (lead), Rudolf Schenker (rhythm)
+       Peak Era: 1975–1980 (early peak, pre-80s pop crossover)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP
+     Guitar:      Gibson Flying V / Explorer
+     Pickups:     Humbuckers
+     Gain:        high gain, aggressive
+     EQ:          scooped mids slightly, tight bass
+     Character:   Aggressive, European-flavored heavy metal rhythm
+     Effects:     None
+     Keywords:    heavy metal rhythm, aggressive, tight, flying V
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various (Uli: stratocaster-influenced custom)
+     Pickups:     Bridge
+     Gain:        very high
+     EQ:          mids heavy, presence high
+     Character:   Hendrix-influenced, psychedelic, Jimi-worshipping screaming leads
+     Effects:     Wah, Univibe, delay
+     Keywords:    hendrix-influenced, psychedelic leads, wah, univibe, screaming
+
+  ····························································
+
+  [27] SUPERTRAMP
+       Genre: Progressive Rock / Soft Rock  |  Guitarist: Roger Hodgson / Rick Davies
+       Peak Era: 1974–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / clean amps
+     Guitar:      Various
+     Pickups:     Various
+     Gain:        clean to light breakup
+     EQ:          bright and clean
+     Character:   Clean, studio-polished, pop/prog — guitar as texture element
+     Effects:     Chorus, phaser
+     Keywords:    clean texture, soft rock, chorus, phaser
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender clean
+     Guitar:      Various
+     Pickups:     Various
+     Gain:        light breakup
+     EQ:          balanced, bright
+     Character:   Melodic, smooth, pop-prog leads
+     Effects:     Delay, chorus
+     Keywords:    melodic pop leads, smooth, delay
+
+  ····························································
+
+  [28] UFO
+       Genre: Hard Rock / Heavy Metal  |  Guitarist: Michael Schenker
+       Peak Era: 1974–1979
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP
+     Guitar:      Gibson Flying V
+     Pickups:     Humbuckers
+     Gain:        high crunch
+     EQ:          full mids, tight bass
+     Character:   Tight, articulate, hard rock metal rhythm
+     Effects:     None
+     Keywords:    flying V crunch, hard rock, articulate, tight
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Flying V (white)
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          mids dominant
+     Character:   Explosive, melodic, bluesy — signature screaming Flying V tone
+     Effects:     Wah, delay
+     Keywords:    flying V lead, explosive, bluesy, wah, screaming
+
+  ····························································
+
+  [29] FOREIGNER
+       Genre: Hard Rock / Arena Rock  |  Guitarist: Mick Jones
+       Peak Era: 1977–1981
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Fender
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, full mids
+     Character:   Polished, radio-ready arena rock crunch
+     Effects:     Light chorus
+     Keywords:    arena rock crunch, polished, warm, radio-ready
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward, presence
+     Character:   Emotive, melodic, radio-friendly hard rock leads
+     Effects:     Delay, reverb
+     Keywords:    melodic leads, emotive, arena rock, delay
+
+  ····························································
+
+  [30] JOURNEY
+       Genre: Arena Rock / Pop Rock  |  Guitarist: Neal Schon
+       Peak Era: 1977–1981
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa Boogie
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, mids present
+     Character:   Warm, polished arena rock rhythm
+     Effects:     Chorus, light delay
+     Keywords:    arena rock, warm crunch, polished, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie / Marshall
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, smooth sustain
+     EQ:          mids heavy, warm treble
+     Character:   Soaring, fluid, jazz-influenced rock leads
+     Effects:     Delay, chorus, reverb
+     Keywords:    soaring leads, fluid, jazz-rock, delay, chorus
+
+  ····························································
+
+================================================================================
+  ERA: 80s  (30 bands)
+================================================================================
+
+  [01] METALLICA
+       Genre: Thrash Metal  |  Guitarist: James Hetfield (rhythm), Kirk Hammett (lead)
+       Peak Era: 1986–1991 (Master of Puppets / Black Album)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Mark IIC+ / Mark IIB (later Quad Preamp)
+     Guitar:      ESP / Jackson (with EMG 81/60 actives)
+     Pickups:     EMG 81 (active humbucker)
+     Gain:        very high, extremely tight and controlled
+     EQ:          deep scooped V-shape — boosted lows + boosted highs, heavily scooped mids
+     Character:   The iconic Metallica 'scooped' metal rhythm — tight, percussive, machine-like chugging, palm-mute focused
+     Effects:     Boss MT-2 / MXR EQ for mid-scoop
+     Keywords:    mid-scooped, tight chug, palm mute, mesa boogie IIC+, EMG 81, thrash rhythm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie Mark IIC+
+     Guitar:      ESP / Gibson Les Paul
+     Pickups:     EMG 81 bridge
+     Gain:        very high, violin-like sustain
+     EQ:          mids boosted for lead, presence high
+     Character:   Wah-drenched, pentatonic-dominant, emotional and melodic in solos
+     Effects:     Wah (Cry Baby / Kirk Hammett signature), slight delay
+     Keywords:    wah leads, pentatonic, high gain, EMG lead, emotional phrasing
+
+  ····························································
+
+  [02] IRON MAIDEN
+       Genre: Heavy Metal / NWOBHM  |  Guitarist: Dave Murray + Adrian Smith (+ Janick Gers later)
+       Peak Era: 1982–1988 (Number of the Beast / Powerslave / Seventh Son era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 2203
+     Guitar:      Fender Stratocaster (Murray) / Various (Smith)
+     Pickups:     DiMarzio / Seymour Duncan humbuckers in Strat body
+     Gain:        high, aggressive but clear — classic JCM800 crunch
+     EQ:          full mids, tight bass, bright treble
+     Character:   Galloping dual-guitar heavy metal crunch — synchronized twin rhythms, full and powerful
+     Effects:     None
+     Keywords:    JCM800, NWOBHM, galloping rhythm, twin guitars, full mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800 cranked
+     Guitar:      Fender Stratocaster (Murray) / Jackson / Charvel (Smith)
+     Pickups:     DiMarzio Super Distortion bridge
+     Gain:        very high, harmonized
+     EQ:          mids boosted, bright
+     Character:   Harmonized twin-guitar leads, melodic, sweeping — highly organized melodic dual leads
+     Effects:     Reverb (subtle)
+     Keywords:    harmonized twin leads, melodic, JCM800 lead, strat in mahogany
+
+  ····························································
+
+  [03] VAN HALEN
+       Genre: Hard Rock / Heavy Metal  |  Guitarist: Eddie Van Halen
+       Peak Era: 1978–1984 (Diamond Dave era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         'Frankenstein' modified Marshall Plexi (with variac)
+     Guitar:      'Frankenstein' custom Strat-style with humbucker
+     Pickups:     Gibson PAF humbucker in custom body
+     Gain:        high, amp-cranked natural, brown sound
+     EQ:          full mids, warm but cutting, presence rich
+     Character:   The 'Brown Sound' — warm, full-bodied, musical crunch unlike any — not scooped, very mid-present
+     Effects:     MXR Phase 90, MXR Flanger, Echoplex
+     Keywords:    brown sound, warm crunch, mid-present, phase 90, frankenstein, cranked plexi
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Modified Marshall Plexi with variac
+     Guitar:      Frankenstein
+     Pickups:     Bridge PAF humbucker
+     Gain:        very high
+     EQ:          full mids, warm
+     Character:   Explosive, two-hand tapping pioneer, whammy dives, incredibly dynamic
+     Effects:     MXR Phase 90, Echoplex tape delay, whammy bar
+     Keywords:    two-hand tapping, whammy bar, brown sound lead, explosive dynamics, phase 90
+
+  ····························································
+
+  [04] GUNS N' ROSES
+       Genre: Hard Rock / Heavy Metal  |  Guitarist: Slash (lead), Izzy Stradlin (rhythm)
+       Peak Era: 1987–1991 (Appetite / Use Your Illusion)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall Silver Jubilee 2555 (Slash) / Marshall JCM800 (Izzy)
+     Guitar:      Gibson Les Paul (Slash) / Rhythm Ace / Les Paul (Izzy)
+     Pickups:     Humbuckers (Seymour Duncan Alnico II Pro)
+     Gain:        medium-high crunch, sleazy and raw
+     EQ:          full warm mids, smooth treble, fat low end
+     Character:   Warm, sleazy, whisky-soaked hard rock — raw energy with class
+     Effects:     None
+     Keywords:    silver jubilee crunch, sleazy hard rock, warm mids, les paul, raw
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall Silver Jubilee 2555
+     Guitar:      Gibson Les Paul (Slash signature tone)
+     Pickups:     Seymour Duncan Alnico II Pro bridge
+     Gain:        very high, singing sustain
+     EQ:          heavy mids, warm but cutting
+     Character:   Smooth, powerful, melodic — effortless blues-informed rock lead tone, thick sustain
+     Effects:     Wah (Cry Baby), slight reverb
+     Keywords:    silver jubilee lead, smooth sustain, wah, les paul singing, melodic blues-rock
+
+  ····························································
+
+  [05] DEF LEPPARD
+       Genre: Glam Metal / Hard Rock  |  Guitarist: Phil Collen + Steve Clark
+       Peak Era: 1983–1988 (Pyromania / Hysteria)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshal JCM800 / custom modded amps (Mutt Lange production)
+     Guitar:      Jackson / Charvel Strat-style
+     Pickups:     DiMarzio Super Distortion humbuckers
+     Gain:        very high, polished, studio-layered
+     EQ:          high mids boosted, tight bass, sparkling treble
+     Character:   Massively layered, hyper-produced glam metal rhythm — stacked guitars in studio for huge chorus sound
+     Effects:     Chorus (heavy studio use), harmonizer
+     Keywords:    hyper-produced, layered guitars, glam metal, high gain, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         JCM800 cranked
+     Guitar:      Jackson / Charvel
+     Pickups:     DiMarzio bridge
+     Gain:        very high
+     EQ:          mids forward, bright
+     Character:   Fast, technical, neoclassical-influenced glam leads
+     Effects:     Whammy bar, delay
+     Keywords:    technical leads, glam metal, neoclassical, whammy
+
+  ····························································
+
+  [06] BON JOVI
+       Genre: Glam Metal / Arena Rock  |  Guitarist: Richie Sambora
+       Peak Era: 1986–1989 (Slippery When Wet / New Jersey)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Fender Stratocaster
+     Pickups:     Humbuckers / single coil
+     Gain:        medium-high, polished
+     EQ:          balanced, radio-friendly
+     Character:   Polished, pop-metal hard rock rhythm — accessible and huge
+     Effects:     Chorus
+     Keywords:    pop metal, polished, chorus, radio-friendly
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Fender Stratocaster / Kramer
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          mids forward, presence
+     Character:   Melodic, commercial, Talkbox-infused signature leads
+     Effects:     Talk box, wah, delay
+     Keywords:    talkbox, melodic leads, wah, arena rock
+
+  ····························································
+
+  [07] MÖTLEY CRÜE
+       Genre: Glam Metal / Hard Rock  |  Guitarist: Mick Mars
+       Peak Era: 1983–1989 (Shout at the Devil / Dr. Feelgood)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      B.C. Rich / Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        high crunch, sleazy
+     EQ:          fat mids, full bass
+     Character:   Heavy, sleazy glam metal crunch with bluesy roots
+     Effects:     None
+     Keywords:    sleazy glam, high crunch, heavy, les paul mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids heavy, dark treble
+     Character:   Bluesy, underrated, expressive leads — dark and soulful
+     Effects:     Wah, reverb
+     Keywords:    bluesy leads, dark, soulful, wah
+
+  ····························································
+
+  [08] OZZY OSBOURNE
+       Genre: Heavy Metal  |  Guitarist: Randy Rhoads
+       Peak Era: 1980–1984 (Randy Rhoads era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP / JCM800
+     Guitar:      Jackson / Charvel custom (Polka Dot V / white guitar)
+     Pickups:     DiMarzio Super Distortion
+     Gain:        high, controlled
+     EQ:          balanced but bright, classical-feeling
+     Character:   Tight, precise, classically-inspired heavy metal rhythm
+     Effects:     None
+     Keywords:    classical metal rhythm, tight, JMP, precise
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JMP cranked
+     Guitar:      Jackson Rhoads V custom
+     Pickups:     DiMarzio Super Distortion bridge
+     Gain:        very high
+     EQ:          mids boosted, presence forward
+     Character:   Classical baroque technique + wild heavy metal — harmonized, sweeping arpeggios, whammy dives
+     Effects:     Wah, harmonizer, reverb
+     Keywords:    neoclassical leads, baroque technique, sweeping arpeggios, whammy bar, harmonized
+
+  ····························································
+
+  [09] WHITESNAKE
+       Genre: Glam Metal / Hard Rock  |  Guitarist: John Sykes / Steve Vai / Adrian Vandenberg
+       Peak Era: 1987–1989
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul (Sykes) / Ibanez JEM (Vai)
+     Pickups:     Humbuckers
+     Gain:        very high, powerful
+     EQ:          full mids, massive bass, high presence
+     Character:   Huge, powerful glam metal rhythm — stadium-sized crunch
+     Effects:     None
+     Keywords:    stadium crunch, huge, high gain, JCM800
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800 cranked
+     Guitar:      Gibson Les Paul / Ibanez JEM
+     Pickups:     Bridge humbucker
+     Gain:        very high, singing
+     EQ:          mids forward, bright
+     Character:   Phenomenal, technical, whammy-heavy glam metal leads
+     Effects:     DigiTech Whammy, whammy bar, delay
+     Keywords:    technical leads, whammy, glam metal lead, high sustain
+
+  ····························································
+
+  [10] TWISTED SISTER
+       Genre: Glam Metal / Hard Rock  |  Guitarist: Jay Jay French + Eddie Ojeda
+       Peak Era: 1984–1986
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul / Explorer
+     Pickups:     Humbuckers
+     Gain:        high crunch, aggressive
+     EQ:          mid-forward, raw
+     Character:   Raw, aggressive, anthemic glam metal crunch
+     Effects:     None
+     Keywords:    anthemic crunch, raw, glam metal, aggressive
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, catchy hard rock leads
+     Effects:     Reverb
+     Keywords:    melodic, anthemic, hard rock leads
+
+  ····························································
+
+  [11] DIO
+       Genre: Heavy Metal  |  Guitarist: Vivian Campbell / Craig Goldy
+       Peak Era: 1983–1987
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        very high
+     EQ:          full mids, dark treble, heavy bass
+     Character:   Massive, dark heavy metal rhythm — gothic and powerful
+     Effects:     None
+     Keywords:    dark heavy metal, massive, full mids, gothic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          boosted mids, presence high
+     Character:   Melodic neoclassical heavy metal leads — expressive, emotional
+     Effects:     Whammy, reverb
+     Keywords:    neoclassical heavy, melodic, emotional, high gain
+
+  ····························································
+
+  [12] ANTHRAX
+       Genre: Thrash Metal  |  Guitarist: Scott Ian (rhythm) + Danny Spitz (lead)
+       Peak Era: 1986–1991
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Mesa Boogie
+     Guitar:      ESP / Jackson (EMG pickups)
+     Pickups:     EMG 81 active
+     Gain:        very high, tight thrash
+     EQ:          scooped mids, tight bass, bright treble
+     Character:   Syncopated thrash rhythm, funky off-beats, high gain tight
+     Effects:     None
+     Keywords:    syncopated thrash, tight chug, EMG 81, scooped, funky thrash
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Jackson
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Fast, melodic thrash leads
+     Effects:     Whammy, wah
+     Keywords:    fast thrash leads, melodic, whammy
+
+  ····························································
+
+  [13] MEGADETH
+       Genre: Thrash Metal  |  Guitarist: Dave Mustaine (rhythm/lead) + Marty Friedman (lead, Rust in Peace)
+       Peak Era: 1986–1992 (Peace Sells / Rust in Peace)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Jackson / Marshall JCM900 + Custom modded amps
+     Guitar:      Jackson King V / Jackson Star (with active EMGs)
+     Pickups:     EMG 81/85
+     Gain:        very high, aggressive, articulate
+     EQ:          presence-heavy, tight mid scoop, heavy low end
+     Character:   Aggressive, technical, angular thrash rhythm — razor-sharp palm mutes
+     Effects:     None
+     Keywords:    technical thrash, aggressive, razor sharp, angular rhythms, EMG
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Jackson King V
+     Pickups:     Bridge EMG 81
+     Gain:        very high
+     EQ:          forward mids (especially Marty Friedman's exotic scales)
+     Character:   Complex scales, exotic phrasing (Marty era), whammy divebombs, intense speed
+     Effects:     Whammy bar, wah, harmonizer
+     Keywords:    exotic scale leads, divebombs, technical, wah, intense speed
+
+  ····························································
+
+  [14] SLAYER
+       Genre: Thrash Metal / Speed Metal  |  Guitarist: Jeff Hanneman + Kerry King
+       Peak Era: 1986–1990 (Reign in Blood / Seasons in the Abyss)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Mesa Boogie
+     Guitar:      B.C. Rich / Jackson (EMG pickups)
+     Pickups:     EMG 81
+     Gain:        maximum — wall of saturated chaos
+     EQ:          mid-forward, heavily boosted bass, treble razor sharp
+     Character:   Chaotic, relentless, tremolo-picked wall of noise — fastest and most brutal thrash
+     Effects:     None
+     Keywords:    brutal thrash, tremolo picking, maximum gain, chaotic, wall of noise
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      B.C. Rich / Jackson
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          chaotic, intentionally atonal
+     Character:   Atonal divebomb chaos — deliberately dissonant, pitch scrapes, whammy torture
+     Effects:     Floyd Rose whammy bar (extreme use)
+     Keywords:    atonal chaos, divebombs, pitch scrapes, whammy abuse, extreme
+
+  ····························································
+
+  [15] QUIET RIOT
+       Genre: Glam Metal  |  Guitarist: Carlos Cavazo
+       Peak Era: 1983–1984
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson / Custom
+     Pickups:     Humbuckers
+     Gain:        high crunch
+     EQ:          mid-forward, full
+     Character:   Hard-hitting glam metal crunch
+     Effects:     None
+     Keywords:    glam metal crunch, hard hitting, JCM800
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Fast, melodic glam leads
+     Effects:     Whammy, reverb
+     Keywords:    melodic glam, fast, whammy
+
+  ····························································
+
+  [16] W.A.S.P.
+       Genre: Heavy Metal / Glam Metal  |  Guitarist: Chris Holmes
+       Peak Era: 1984–1987
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      B.C. Rich
+     Pickups:     Humbuckers
+     Gain:        high crunch, aggressive
+     EQ:          mid-heavy, full bass
+     Character:   Aggressive, dark, heavy metal rhythm
+     Effects:     None
+     Keywords:    dark metal rhythm, aggressive, high gain
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      B.C. Rich
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          presence forward
+     Character:   Raw, wild, bluesy metal leads
+     Effects:     Whammy bar, wah
+     Keywords:    wild leads, raw, bluesy metal
+
+  ····························································
+
+  [17] SAXON
+       Genre: NWOBHM / Heavy Metal  |  Guitarist: Paul Quinn + Graham Oliver
+       Peak Era: 1980–1984
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        high crunch
+     EQ:          full mids, NWOBHM character
+     Character:   Classic NWOBHM twin-guitar crunch
+     Effects:     None
+     Keywords:    NWOBHM, twin guitar crunch, JCM800, full mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Classic NWOBHM melodic leads
+     Effects:     Reverb
+     Keywords:    NWOBHM leads, melodic, classic
+
+  ····························································
+
+  [18] THE CULT
+       Genre: Hard Rock / Post-Punk  |  Guitarist: Billy Duffy
+       Peak Era: 1985–1989 (Love / Electric / Sonic Temple)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gretsch White Falcon
+     Pickups:     Humbuckers (Gretsch Filter'Tron style)
+     Gain:        medium-high crunch, jangle and grit
+     EQ:          mid-forward, natural jangle
+     Character:   Post-punk meets hard rock — jangly but heavy, Gretsch character
+     Effects:     Chorus, light delay
+     Keywords:    gretsch jangle, post-punk hard rock, JCM800 crunch, jangly mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gretsch White Falcon
+     Pickups:     Bridge Filter'Tron
+     Gain:        high
+     EQ:          mids rich
+     Character:   Tribal, melodic, stomping lead tone
+     Effects:     Delay, reverb
+     Keywords:    tribal leads, melodic, gretsch character, delay
+
+  ····························································
+
+  [19] EUROPE
+       Genre: Glam Metal / Hard Rock  |  Guitarist: John Norum
+       Peak Era: 1986–1988
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        high, polished
+     EQ:          balanced, radio-friendly
+     Character:   Swedish glam metal — polished and powerful
+     Effects:     Chorus
+     Keywords:    polished glam, Swedish metal, chorus, balanced
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, fast, Scandinavian glam metal leads
+     Effects:     Whammy, delay
+     Keywords:    Scandinavian metal leads, melodic, whammy, fast
+
+  ····························································
+
+  [20] DOKKEN
+       Genre: Glam Metal / Hard Rock  |  Guitarist: George Lynch
+       Peak Era: 1984–1987
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson / ESP custom
+     Pickups:     Humbuckers
+     Gain:        high crunch
+     EQ:          full mids, tight
+     Character:   Tight, punchy glam metal crunch
+     Effects:     None
+     Keywords:    tight glam crunch, full mids, punchy
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      ESP custom
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          presence forward, mids heavy
+     Character:   Technical, explosive, world-class phrasing — Lynch is severely underrated
+     Effects:     Wah, harmonizer, whammy
+     Keywords:    technical glam leads, explosive, harmonizer, wah
+
+  ····························································
+
+  [21] WARRANT
+       Genre: Glam Metal  |  Guitarist: Joey Allen
+       Peak Era: 1989–1991
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        medium-high
+     EQ:          balanced
+     Character:   Radio-friendly glam metal crunch
+     Effects:     Chorus
+     Keywords:    radio glam, chorus, balanced crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, accessible glam leads
+     Effects:     Whammy, delay
+     Keywords:    melodic glam leads, accessible, whammy
+
+  ····························································
+
+  [22] CINDERELLA
+       Genre: Glam Metal / Blues Rock  |  Guitarist: Jeff LaBar
+       Peak Era: 1986–1990
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch, bluesy
+     EQ:          warm mids, full low end
+     Character:   Blues-inflected glam metal crunch — warmer and more organic than peers
+     Effects:     None
+     Keywords:    blues glam crunch, warm, organic, les paul
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          warm mids
+     Character:   Bluesy, emotive glam leads
+     Effects:     Wah, slide
+     Keywords:    bluesy glam leads, emotive, wah, slide
+
+  ····························································
+
+  [23] TESLA
+       Genre: Hard Rock / Blues Rock  |  Guitarist: Frank Hannon + Tommy Skeoch
+       Peak Era: 1986–1991
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Fender
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch, classic
+     EQ:          warm, full mids
+     Character:   Classic warm rock crunch — more organic than typical glam
+     Effects:     None
+     Keywords:    organic hard rock crunch, warm, classic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Classic blues-rock inspired leads
+     Effects:     Reverb, delay
+     Keywords:    blues-rock leads, classic, melodic
+
+  ····························································
+
+  [24] RATT
+       Genre: Glam Metal  |  Guitarist: Warren DeMartini + Robbin Crosby
+       Peak Era: 1984–1988
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Charvel / Jackson
+     Pickups:     DiMarzio Super Distortion
+     Gain:        high crunch
+     EQ:          punchy mids, tight bass
+     Character:   Punchy, street-level glam metal crunch
+     Effects:     None
+     Keywords:    street glam crunch, punchy, DiMarzio, tight
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Charvel / Jackson
+     Pickups:     Bridge DiMarzio
+     Gain:        very high
+     EQ:          mids boosted
+     Character:   Fast, technical, melodic glam leads
+     Effects:     Whammy, wah
+     Keywords:    technical glam leads, fast, whammy
+
+  ····························································
+
+  [25] ACCEPT
+       Genre: Heavy Metal / Speed Metal  |  Guitarist: Wolf Hoffmann
+       Peak Era: 1982–1985 (Restless and Wild / Balls to the Wall)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Gibson Flying V
+     Pickups:     Humbuckers
+     Gain:        high, very tight
+     EQ:          scooped, aggressive
+     Character:   Speed metal prototype — tight, fast, Germanic precision
+     Effects:     None
+     Keywords:    speed metal, tight, precise, Germanic, Flying V
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Gibson Flying V
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          mids forward, presence high
+     Character:   Melodic neoclassical speed metal leads
+     Effects:     Reverb
+     Keywords:    speed metal leads, neoclassical, melodic, Flying V
+
+  ····························································
+
+  [26] WINGER
+       Genre: Glam Metal / Pop Metal  |  Guitarist: Reb Beach
+       Peak Era: 1988–1991
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch
+     EQ:          balanced
+     Character:   Polished, technical pop metal crunch
+     Effects:     Chorus
+     Keywords:    pop metal crunch, polished, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Technical, melodic leads — underrated technique
+     Effects:     Whammy, delay
+     Keywords:    technical leads, melodic, underrated
+
+  ····························································
+
+  [27] STEVIE RAY VAUGHAN (AND DOUBLE TROUBLE)
+       Genre: Blues Rock / Texas Blues  |  Guitarist: Stevie Ray Vaughan
+       Peak Era: 1983–1989
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Dumble Steel String Singer / Fender Vibroverb / Marshall Major
+     Guitar:      Fender Stratocaster 'Number One' (heavy strings .013s)
+     Pickups:     Single coil (Texas Special / vintage style)
+     Gain:        medium crunch, amp-driven natural breakup
+     EQ:          huge low end, full mids, cutting treble
+     Character:   Massive, thick blues rhythm — Strat with heavy strings creates unusual density
+     Effects:     Ibanez Tube Screamer TS808 (used as clean boost), Uni-Vibe, wah
+     Keywords:    Texas blues rhythm, TS808 boost, heavy strings strat, thick, Dumble
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Dumble / Fender Vibroverb cranked
+     Guitar:      Fender Stratocaster Number One
+     Pickups:     Bridge/middle single coil
+     Gain:        high, amp-natural singing
+     EQ:          massive low end, singing mids
+     Character:   Crying, singing blues leads — unparalleled string attack and dynamics
+     Effects:     TS808 boost, Uni-Vibe, Cry Baby wah
+     Keywords:    singing blues leads, TS808, uni-vibe, dynamic attack, wah
+
+  ····························································
+
+  [28] MR. BIG
+       Genre: Hard Rock / Glam Metal  |  Guitarist: Paul Gilbert
+       Peak Era: 1989–1992
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Laney / Marshall
+     Guitar:      Various (Gibson / Custom)
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch
+     EQ:          balanced, clean articulation
+     Character:   Tight, clean-to-crunch articulate rhythm
+     Effects:     None
+     Keywords:    articulate crunch, tight, balanced
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Laney cranked
+     Guitar:      Various
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Technically extraordinary — alternate picking speed, Gilbert's signature precision
+     Effects:     Delay, reverb
+     Keywords:    extreme technique, alternate picking, precision, melodic speed
+
+  ····························································
+
+  [29] VENOM
+       Genre: Black Metal / Speed Metal  |  Guitarist: Jeff 'Mantas' Dunn
+       Peak Era: 1981–1984
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson SG / Les Paul
+     Pickups:     Humbuckers
+     Gain:        high, dirty, raw
+     EQ:          full bass, ragged mids
+     Character:   Raw, lo-fi, chaotic — deliberately primitive black/speed metal
+     Effects:     None
+     Keywords:    primitive metal, raw chaos, lo-fi, black metal
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked hard
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        maximum, uncontrolled
+     EQ:          raw, unpolished
+     Character:   Wild, chaotic, primitive leads
+     Effects:     None
+     Keywords:    chaotic leads, primitive, wild, raw
+
+  ····························································
+
+  [30] SKID ROW
+       Genre: Glam Metal / Heavy Metal  |  Guitarist: Scotti Hill + Dave 'Snake' Sabo
+       Peak Era: 1989–1991 (Skid Row / Slave to the Grind)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800
+     Guitar:      Jackson / ESP
+     Pickups:     EMG / DiMarzio
+     Gain:        very high, aggressive
+     EQ:          mid-forward, tight bass
+     Character:   Heavier than typical glam — tight, aggressive, proto-groove metal
+     Effects:     None
+     Keywords:    heavy glam rhythm, aggressive, tight, proto-groove
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall cranked
+     Guitar:      Jackson
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          mids forward, bright
+     Character:   Fast, melodic, technically proficient leads
+     Effects:     Whammy, wah, delay
+     Keywords:    technical leads, melodic, whammy, fast
+
+  ····························································
+
+================================================================================
+  ERA: 90s  (30 bands)
+================================================================================
+
+  [01] NIRVANA
+       Genre: Grunge / Alternative Rock  |  Guitarist: Kurt Cobain
+       Peak Era: 1991–1993 (Nevermind / In Utero)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Studio Preamp / Fender Twin (clean) + Boss DS-1 or Big Muff
+     Guitar:      Fender Jaguar / Mustang / Stratocaster (left-handed)
+     Pickups:     Single coil
+     Gain:        clean verse switching to high-gain chorus — the quiet/loud dynamic
+     EQ:          mid-scooped heavy fuzz, boomy low end
+     Character:   Alternating clean-to-loud dynamics — the defining grunge quiet/loud — massive Big Muff fuzz-wall
+     Effects:     Boss DS-1 (slightly modded), Electro-Harmonix Small Clone chorus, Big Muff Pi fuzz
+     Keywords:    quiet-loud dynamic, big muff fuzz, small clone chorus, grunge, DS-1, scooped fuzz
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie / Twin Reverb
+     Guitar:      Fender Jaguar / Mustang
+     Pickups:     Bridge single coil
+     Gain:        high fuzz
+     EQ:          raw, unpolished, feedback-prone
+     Character:   Raw, feedback-laden, simple but iconic — Cobain avoided shredding, focused on feel
+     Effects:     Big Muff, DS-1, Cry Baby wah
+     Keywords:    raw fuzz leads, feedback, simple phrasing, wah, anti-shred
+
+  ····························································
+
+  [02] PEARL JAM
+       Genre: Grunge / Alternative Rock  |  Guitarist: Mike McCready (lead) + Stone Gossard (rhythm)
+       Peak Era: 1991–1996
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa Boogie (Stone)
+     Guitar:      Gibson Les Paul / Telecaster
+     Pickups:     Humbuckers / single coil
+     Gain:        medium crunch, riff-driven
+     EQ:          warm mids, full sound
+     Character:   Solid, punchy grunge rock rhythm — classic rock foundation with grunge energy
+     Effects:     None
+     Keywords:    grunge rhythm, punchy, warm mids, riff-driven
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Vibroverb / vintage Fenders + Dumble (McCready)
+     Guitar:      Fender Stratocaster
+     Pickups:     Single coil bridge
+     Gain:        medium-high, Hendrix-influenced
+     EQ:          warm, mids forward
+     Character:   Hendrix-worshipping, soulful, expressive — McCready's SRV/Hendrix-informed style
+     Effects:     Wah, Uni-Vibe, octavia, MXR Phase 90
+     Keywords:    Hendrix-influenced leads, soulful, wah, uni-vibe, expressive strat
+
+  ····························································
+
+  [03] ALICE IN CHAINS
+       Genre: Grunge / Heavy Metal  |  Guitarist: Jerry Cantrell
+       Peak Era: 1992–1996 (Dirt / Jar of Flies)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Bogner Ecstasy / Marshall JCM800
+     Guitar:      G&L Rampage / G&L ASAT (Jerry Cantrell models)
+     Pickups:     Humbuckers / single coil combinations
+     Gain:        high gain, dark, detuned (drop D, down-tuned)
+     EQ:          very heavy low end, dark mids, restrained treble
+     Character:   Dark, detuned, doom-influenced grunge metal — heaviest of the grunge bands, sliding power chords
+     Effects:     Wah used rhythmically
+     Keywords:    dark grunge metal, detuned, heavy low end, doom-grunge, wah rhythm, drop D
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Bogner Ecstasy / Marshall
+     Guitar:      G&L / Gibson
+     Pickups:     Bridge
+     Gain:        high, controlled sustain
+     EQ:          mids boosted, dark overall
+     Character:   Minor key melancholy, harmonized, dark and expressive
+     Effects:     Wah, chorus (subtle), harmonizer
+     Keywords:    dark harmonized leads, melancholy, minor key, wah, expressive
+
+  ····························································
+
+  [04] SOUNDGARDEN
+       Genre: Grunge / Alternative Metal  |  Guitarist: Kim Thayil
+       Peak Era: 1991–1996 (Badmotorfinger / Superunknown)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Vintage Marshall / Ampeg
+     Guitar:      Gibson SG / Jazzmaster (downtuned to low B/A)
+     Pickups:     Humbuckers
+     Gain:        medium-high crunch, detuned, odd time signatures
+     EQ:          dark, heavy low end, mid-scooped chaos
+     Character:   Psychedelic dark grunge — heavy downtuning, odd meters, Black Sabbath meets psychedelia
+     Effects:     Wah, Big Muff variant
+     Keywords:    psychedelic grunge, dark downtuned, odd time, heavy sabbath-like, wah
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall vintage cranked
+     Guitar:      Gibson SG / various detuned
+     Pickups:     Bridge humbucker
+     Gain:        high, noisy
+     EQ:          dark, noisy harmonics
+     Character:   Feedback-prone, spacious, psychedelic — not typical shred
+     Effects:     Big Muff, wah, heavy reverb
+     Keywords:    feedback leads, psychedelic, spacious, noisy harmonics
+
+  ····························································
+
+  [05] STONE TEMPLE PILOTS
+       Genre: Grunge / Alternative Rock  |  Guitarist: Dean DeLeo
+       Peak Era: 1992–1996 (Core / Purple / Tiny Music)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Matchless / vintage Vox / Marshall
+     Guitar:      Gibson Les Paul / Rickenbacker
+     Pickups:     Humbuckers
+     Gain:        medium crunch
+     EQ:          warm, full mids
+     Character:   Vintage-inspired, warm, classic rock grunge rhythm
+     Effects:     Chorus, wah
+     Keywords:    vintage warm crunch, classic rock grunge, Matchless amp, full mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Matchless / vintage amp
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Blues-informed melodic grunge leads
+     Effects:     Wah, delay
+     Keywords:    melodic grunge leads, blues-informed, warm, wah
+
+  ····························································
+
+  [06] RAGE AGAINST THE MACHINE
+       Genre: Alternative Metal / Funk Metal / Rap Metal  |  Guitarist: Tom Morello
+       Peak Era: 1992–1999
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Mesa Boogie Dual Rectifier
+     Guitar:      Arm The Homeless custom guitar (Strat body, humbucker bridge)
+     Pickups:     Humbucker (DiMarzio)
+     Gain:        high, aggressive, funk-rhythm syncopation
+     EQ:          mid-heavy, tight bass, presence
+     Character:   Funk-metal rhythm with radical scratch DJ-style techniques — whammy abuse as rhythmic tool
+     Effects:     DigiTech Whammy (central to his sound), DOD FX69 Grunge, wah rhythmically
+     Keywords:    funk metal rhythm, whammy as rhythm tool, syncopated, mid-heavy, DJ scratching
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      Arm The Homeless
+     Pickups:     Bridge humbucker
+     Gain:        maximum
+     EQ:          variable — Morello creates full soundscapes
+     Character:   No traditional leads — creates turntable, synth, orchestra sounds via guitar manipulation
+     Effects:     Whammy, wah, talk box, kill switch, phase 90, flanger
+     Keywords:    non-traditional leads, turntable sounds, whammy extremes, kill switch, talk box, soundscape
+
+  ····························································
+
+  [07] GREEN DAY
+       Genre: Punk Rock / Pop Punk  |  Guitarist: Billie Joe Armstrong
+       Peak Era: 1994–1997 (Dookie / Insomniac / Nimrod)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Fender Bassman
+     Guitar:      Gibson Les Paul Jr. (P-90s) / Fernandes Stratocaster
+     Pickups:     P-90 single coil / humbucker
+     Gain:        medium-high crunch, fast power chords
+     EQ:          bright, mid-forward, punchy
+     Character:   Classic punk power chord crunch — bright, fast, straightforward
+     Effects:     None
+     Keywords:    punk crunch, power chords, bright, fast, JCM800, P-90
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         JCM800 cranked
+     Guitar:      Les Paul Jr.
+     Pickups:     Bridge P-90
+     Gain:        high
+     EQ:          bright, cutting
+     Character:   Simple, melodic punk leads — brevity and catchiness over technique
+     Effects:     None
+     Keywords:    simple punk leads, catchy, P-90 bite
+
+  ····························································
+
+  [08] WEEZER
+       Genre: Alternative Rock / Power Pop  |  Guitarist: Rivers Cuomo
+       Peak Era: 1994–1996 (Blue Album / Pinkerton)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa (Ric Ocasek produced Pinkerton: raw and heavy)
+     Guitar:      Strat-style guitars
+     Pickups:     Humbuckers
+     Gain:        Layered — Blue Album: polished high gain, Pinkerton: raw and aggressive
+     EQ:          bright, mid-forward
+     Character:   Blue Album: layered, shiny power pop metal; Pinkerton: raw, punky, lo-fi grunge
+     Effects:     Chorus (Blue Album era), none (Pinkerton)
+     Keywords:    power pop guitar, bright, layered, dual personality clean/heavy
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Strat-style
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          bright presence
+     Character:   Heavy metal influenced riff-leads — Rivers is a closet shredder
+     Effects:     None
+     Keywords:    power pop metal leads, bright, catchy riffs
+
+  ····························································
+
+  [09] FOO FIGHTERS
+       Genre: Alternative Rock / Post-Grunge  |  Guitarist: Dave Grohl (rhythm) + Pat Smear / Nate Mendel
+       Peak Era: 1995–2002
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM900 / Mesa Boogie
+     Guitar:      Gibson Les Paul / Trini Lopez
+     Pickups:     Humbuckers (Seymour Duncan)
+     Gain:        high crunch, massive walls of layered guitar
+     EQ:          full mids, warm bass, presence
+     Character:   Thick, layered post-grunge — massive, warm stadium sound
+     Effects:     None
+     Keywords:    layered post-grunge, warm thick, stadium, les paul crunch, wall of guitar
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Gibson Les Paul / Trini Lopez
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward, warm
+     Character:   Melodic, singable guitar leads — always serves the song
+     Effects:     Delay, reverb
+     Keywords:    melodic post-grunge leads, song-serving, warm, delay
+
+  ····························································
+
+  [10] SMASHING PUMPKINS
+       Genre: Alternative Rock / Dream Pop / Heavy  |  Guitarist: Billy Corgan + James Iha
+       Peak Era: 1993–1996 (Siamese Dream / Mellon Collie)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall Plexi / Hiwatt DR103 (Butch Vig production: layers of 40+ tracks)
+     Guitar:      Gibson Les Paul / SG / Strat (extensively layered)
+     Pickups:     Humbuckers
+     Gain:        very high, walls of layered fuzz/crunch — 40+ tracked guitars
+     EQ:          massive full spectrum — like an orchestra of distortion
+     Character:   The widest, most massively layered guitar sound in 90s rock — textural wall of noise
+     Effects:     Rat distortion, Big Muff, chorus (heavy layering in production)
+     Keywords:    massive layering, wall of sound, hiwatt, Rat distortion, big muff, orchestral guitar
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Hiwatt / Plexi
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, controlled
+     EQ:          mids forward
+     Character:   Melodic, textural, psych-influenced — Corgan uses effects creatively
+     Effects:     Various fuzz, harmonizer, wah, octave
+     Keywords:    textural leads, melodic, psych-influenced, creative effects
+
+  ····························································
+
+  [11] OASIS
+       Genre: Britpop / Alternative Rock  |  Guitarist: Noel Gallagher
+       Peak Era: 1994–1997 (Definitely Maybe / (What's the Story) Morning Glory)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Vox AC30
+     Guitar:      Gibson Les Paul / Epiphone Riviera
+     Pickups:     Humbuckers
+     Gain:        medium crunch, classic British rock
+     EQ:          warm mids, full
+     Character:   Beatles-meets-hard rock British pop crunch — signature jangly warmth
+     Effects:     None
+     Keywords:    britpop crunch, warm British, les paul, classic rock influence, Beatles-inspired
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Vox
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        medium-high
+     EQ:          warm
+     Character:   Melodic, Lennon/Beatles-inflected solos — brief and to the point
+     Effects:     Delay
+     Keywords:    melodic britpop leads, Beatles-inflected, brief solos, delay
+
+  ····························································
+
+  [12] RADIOHEAD
+       Genre: Alternative Rock / Art Rock  |  Guitarist: Jonny Greenwood + Ed O'Brien
+       Peak Era: 1993–1997 (Pablo Honey / The Bends / OK Computer)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / Vox AC30
+     Guitar:      Various Stratocasters
+     Pickups:     Single coil
+     Gain:        clean to medium crunch
+     EQ:          bright, textural, atmospheric
+     Character:   Textural, atmospheric, interlocking parts — guitar as landscape element
+     Effects:     Tremolo, chorus, heavy reverb, delay
+     Keywords:    atmospheric rhythm, textural, tremolo, fender twin, art rock
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender/Vox
+     Guitar:      Strat
+     Pickups:     Bridge single coil
+     Gain:        medium
+     EQ:          bright
+     Character:   Unconventional — feedback, textures, noise over melody
+     Effects:     Heavy reverb, delay, harmonizer, radical effects
+     Keywords:    textural leads, feedback art rock, unconventional, noise
+
+  ····························································
+
+  [13] SYSTEM OF A DOWN
+       Genre: Alternative Metal / Nu-Metal / Avant-garde  |  Guitarist: Daron Malakian
+       Peak Era: 1998–2002 (SOAD / Toxicity)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Dean / various custom (downtuned C# or lower)
+     Pickups:     Active humbuckers
+     Gain:        very high, angular, extreme downtuning
+     EQ:          massive low end, heavy mid, tight but chaotic
+     Character:   Chaotic Armenian-folk-influenced metal — extreme downtuning, frantic rhythm changes
+     Effects:     None
+     Keywords:    chaotic metal rhythm, extreme downtuning, angular, Mesa Dual Rectifier, Armenian metal
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      Dean / custom
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mid-heavy
+     Character:   Frantic, melodic, folk-metal influenced leads
+     Effects:     Whammy, wah
+     Keywords:    frantic leads, folk-metal, melodic chaos, whammy
+
+  ····························································
+
+  [14] TOOL
+       Genre: Progressive Metal / Alternative Metal  |  Guitarist: Adam Jones
+       Peak Era: 1996–2001 (Ænima / Lateralus)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Mark IV
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        medium-high, deliberate, heavy palm mute patterns
+     EQ:          warm heavy low end, mid-heavy, dark
+     Character:   Hypnotic, mathematical — heavy but mid-forward, palindromic rhythms, massive low end
+     Effects:     Wah (used rhythmically and as filter), phaser, delays
+     Keywords:    progressive metal rhythm, hypnotic, mathematical, mesa mark IV, wah-rhythm, dark mid
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie Mark IV
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids dominant
+     Character:   Sparse, purposeful — not flashy but devastatingly placed
+     Effects:     Wah, chorus, flanger
+     Keywords:    purposeful leads, sparse, prog metal, wah, no excess
+
+  ····························································
+
+  [15] PANTERA
+       Genre: Groove Metal / Heavy Metal  |  Guitarist: Dimebag Darrell
+       Peak Era: 1990–1996 (Cowboys from Hell / Vulgar Display / Far Beyond Driven)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Randall Warhead (solid-state) + MXR 6-Band EQ for mid-boost
+     Guitar:      Dean ML / Custom Washburn (active EMG 81)
+     Pickups:     EMG 81 active
+     Gain:        extremely high, ultra-tight, machine-like
+     EQ:          scooped V with boosted upper-mids (MXR EQ), tight bass, sparkle treble
+     Character:   The groove metal definitive sound — ultra-tight, percussive, syncopated — modern heavy
+     Effects:     MXR 6-Band EQ as mid-boost tool
+     Keywords:    groove metal rhythm, ultra-tight, syncopated, Randall amp, EMG 81, MXR EQ boost
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Randall Warhead
+     Guitar:      Dean ML
+     Pickups:     Bridge EMG 81
+     Gain:        maximum
+     EQ:          full mids presence
+     Character:   One of the greatest rock lead tones ever — pinch harmonics, dive bombs, whammy chaos, vocal expressiveness
+     Effects:     Wah (Cry Baby), Floyd Rose extreme dives, harmonizer
+     Keywords:    pinch harmonics, whammy dives, wah, extreme technique, vocal expressiveness, harmonizer
+
+  ····························································
+
+  [16] KORN
+       Genre: Nu-Metal / Alternative Metal  |  Guitarist: James 'Munky' Shaffer + Brian 'Head' Welch
+       Peak Era: 1994–1999 (Korn / Life is Peachy / Follow the Leader)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Ibanez 7-string RG / custom (tuned A to A — very low)
+     Pickups:     EMG 81 active (7-string versions)
+     Gain:        maximum, crushing low-end chug
+     EQ:          extreme low end, deep mid-scoop, ultra-heavy bass frequencies
+     Character:   7-string downtuned crushing nu-metal — the sub-bass guitar chug that defined nu-metal
+     Effects:     Wah used rhythmically, chorus on one guitar
+     Keywords:    7-string nu-metal, sub-bass chug, Dual Rectifier, EMG 7-string, downtuned extreme, wah rhythm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      Ibanez 7-string
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          mid-heavy
+     Character:   Atonal, noise-oriented — Korn uses limited traditional leads, more texture
+     Effects:     Wah, harmonizer
+     Keywords:    atonal texture leads, 7-string, wah, nu-metal texture
+
+  ····························································
+
+  [17] LINKIN PARK
+       Genre: Nu-Metal / Alternative Metal  |  Guitarist: Brad Delson
+       Peak Era: 2000–2003 (Hybrid Theory / Meteora)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Gibson / Ibanez
+     Pickups:     Active humbuckers
+     Gain:        high, heavy but polished
+     EQ:          tight, digital feel, polished
+     Character:   Clean polished nu-metal rhythm — digitally produced but heavy
+     Effects:     None
+     Keywords:    polished nu-metal, digitally heavy, Mesa Rectifier, tight
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie
+     Guitar:      Gibson
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Minimalist, textural leads — Delson leaves space for vocals
+     Effects:     Delay, chorus
+     Keywords:    minimal leads, textural, leaves space, polished
+
+  ····························································
+
+  [18] THE WHITE STRIPES
+       Genre: Garage Rock / Blues Rock  |  Guitarist: Jack White
+       Peak Era: 2001–2007 (White Blood Cells / Elephant)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Blues Junior / Silvertone vintage amps
+     Guitar:      Kay Hollowbody / Airline / various vintage cheapo guitars
+     Pickups:     Single coil / budget pickups
+     Gain:        medium crunch, deliberately raw, imperfect
+     EQ:          scooped but lo-fi, raw treble, boomy bass
+     Character:   Beautifully raw garage rock — intentionally imperfect, blues-influenced minimalism
+     Effects:     Whammy (octave), fuzz (Big Muff / Digitech Whammy), loop pedals
+     Keywords:    raw garage crunch, lo-fi blues, vintage cheap amps, imperfect beauty, whammy octave
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Silvertone / Fender cranked
+     Guitar:      Kay / Airline
+     Pickups:     Single coil
+     Gain:        high fuzz
+     EQ:          raw, distorted
+     Character:   Explosive, raw blues leads — maximum emotion from minimum notes
+     Effects:     Big Muff, Whammy octave, wah
+     Keywords:    raw blues leads, explosive, maximum emotion, fuzz, whammy
+
+  ····························································
+
+  [19] PRIMUS
+       Genre: Alternative Rock / Funk Metal  |  Guitarist: Larry LaLonde
+       Peak Era: 1990–1995
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie
+     Guitar:      Ibanez
+     Pickups:     Humbuckers
+     Gain:        medium-high, bass-centric band
+     EQ:          recessed in mix (bass is the star)
+     Character:   Complementary texture to Les Claypool's bass — serves as texture element
+     Effects:     Harmonizer, whammy, experimental
+     Keywords:    texture rhythm, funk metal, bass-deferring, experimental
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie
+     Guitar:      Ibanez
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mid-heavy
+     Character:   Technical, jazzy, unconventional leads — LaLonde studied under Joe Satriani
+     Effects:     Harmonizer, whammy, wah
+     Keywords:    technical unconventional leads, jazz-influenced, experimental phrasing
+
+  ····························································
+
+  [20] NINE INCH NAILS
+       Genre: Industrial Metal / Alternative Rock  |  Guitarist: Trent Reznor (multi-instrumentalist)
+       Peak Era: 1994–1996 (The Downward Spiral)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / digital rigs
+     Guitar:      Various (ESP, custom)
+     Pickups:     Active humbuckers
+     Gain:        very high, industrial — guitars as percussion/texture
+     EQ:          harsh, distorted, industrial
+     Character:   Industrial metal — guitars as blunt trauma, layered with synths and noise
+     Effects:     Heavy distortion/fuzz, pitch shifting, wah, industrial FX
+     Keywords:    industrial metal, guitar as percussion, harsh, layered synths, blunt trauma
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Various / digital
+     Guitar:      Various
+     Pickups:     Active bridge
+     Gain:        maximum
+     EQ:          chaotic
+     Character:   Noise and texture over melody — rare clean leads serve emotional contrast
+     Effects:     Extreme processing
+     Keywords:    noise leads, texture, industrial, emotional contrast
+
+  ····························································
+
+  [21] MARILYN MANSON
+       Genre: Industrial Metal / Shock Rock  |  Guitarist: Twiggy Ramirez / Zim Zum
+       Peak Era: 1996–1998 (Antichrist Superstar / Mechanical Animals)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Various custom
+     Pickups:     Active humbuckers
+     Gain:        very high
+     EQ:          industrial scoop
+     Character:   Industrial shock metal rhythm — dark, relentless
+     Effects:     None
+     Keywords:    industrial rhythm, dark, relentless, high gain
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          mid-forward
+     Character:   Simple, dramatic leads that serve the theatrical whole
+     Effects:     Wah, delay
+     Keywords:    dramatic leads, theatrical, simple but effective
+
+  ····························································
+
+  [22] MATCHBOX TWENTY
+       Genre: Post-Grunge / Alternative Rock  |  Guitarist: Kyle Cook + Paul Doucette
+       Peak Era: 1996–2000
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / Marshall
+     Guitar:      Fender Strat / Telecaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch
+     EQ:          bright, airy
+     Character:   Clean, radio-friendly alternative rock rhythm
+     Effects:     Chorus, light delay
+     Keywords:    radio alt rock, clean bright, telecaster, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender / Marshall
+     Guitar:      Strat
+     Pickups:     Bridge
+     Gain:        medium
+     EQ:          balanced
+     Character:   Melodic, accessible pop-rock leads
+     Effects:     Delay, reverb
+     Keywords:    melodic pop-rock leads, accessible, bright
+
+  ····························································
+
+  [23] CREED
+       Genre: Post-Grunge  |  Guitarist: Mark Tremonti
+       Peak Era: 1997–2001
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      PRS Custom 24
+     Pickups:     PRS humbuckers
+     Gain:        high, thick
+     EQ:          warm heavy low end, full mids
+     Character:   Massive, warm post-grunge — Rectifier smoothness with PRS warmth
+     Effects:     None
+     Keywords:    post-grunge heavy, warm massive, Mesa Rectifier, PRS humbuckers
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      PRS Custom
+     Pickups:     Bridge PRS
+     Gain:        very high, smooth
+     EQ:          mids heavy, warm
+     Character:   Smooth, melodic, sustained — Tremonti is an outstanding player beneath the pop sheen
+     Effects:     Delay, reverb
+     Keywords:    smooth melodic leads, sustained, warm PRS tone, outstanding technique
+
+  ····························································
+
+  [24] GODSMACK
+       Genre: Hard Rock / Post-Grunge / Alternative Metal  |  Guitarist: Tony Rombola
+       Peak Era: 1998–2003
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Gibson Les Paul
+     Pickups:     Active humbuckers
+     Gain:        high, heavy
+     EQ:          heavy low end, mid-forward
+     Character:   Heavy, dark post-grunge metal crunch
+     Effects:     None
+     Keywords:    dark post-grunge, heavy, Mesa Rectifier, les paul
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, bluesy-tinged heavy rock leads
+     Effects:     Delay
+     Keywords:    melodic heavy leads, bluesy-tinged, post-grunge
+
+  ····························································
+
+  [25] PLACEBO
+       Genre: Alternative Rock / Glam Punk  |  Guitarist: Brian Molko
+       Peak Era: 1996–2003
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / various
+     Guitar:      Various
+     Pickups:     Mixed
+     Gain:        medium crunch
+     EQ:          bright, jangly
+     Character:   Britpop-meets-glam-punk crunch
+     Effects:     Chorus, delay
+     Keywords:    glam punk crunch, jangly, britpop, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        medium
+     EQ:          bright
+     Character:   Simple, emotive melodic lines
+     Effects:     Delay, reverb
+     Keywords:    emotive melody, simple leads, britpop lead
+
+  ····························································
+
+  [26] STAIND
+       Genre: Post-Grunge / Alternative Metal  |  Guitarist: Mike Mushok
+       Peak Era: 1999–2002
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Parker Fly / Gibson
+     Pickups:     Active humbuckers
+     Gain:        high, heavy
+     EQ:          massive low end, heavy
+     Character:   Heavy, raw post-grunge — emotional heaviness
+     Effects:     None
+     Keywords:    heavy post-grunge, raw emotion, Parker Fly, Mesa Rectifier
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      Parker Fly
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, clean acoustic-to-electric dynamic
+     Effects:     Delay
+     Keywords:    melodic leads, acoustic/electric dynamic, emotional
+
+  ····························································
+
+  [27] INCUBUS
+       Genre: Alternative Rock / Funk Metal  |  Guitarist: Mike Einziger
+       Peak Era: 1999–2003 (Make Yourself / Morning View / S.C.I.E.N.C.E.)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Gibson ES-335 / various
+     Pickups:     Humbuckers
+     Gain:        versatile — clean funk to heavy metal
+     EQ:          warm mids, flexible
+     Character:   Versatile funk-rock-metal — can be wiry funk or heavy crunch
+     Effects:     Wah, phaser, various FX
+     Keywords:    versatile funk-metal, clean to heavy, wah, phaser, ES-335
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        medium to high
+     EQ:          balanced
+     Character:   Melodic, jazz-influenced sophisticated leads
+     Effects:     Wah, delay, experimental
+     Keywords:    jazz-influenced leads, sophisticated, melodic, experimental
+
+  ····························································
+
+  [28] QUEENS OF THE STONE AGE
+       Genre: Desert Rock / Stoner Rock / Alternative Metal  |  Guitarist: Josh Homme
+       Peak Era: 1998–2002 (QOTSA / Rated R / Songs for the Deaf)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Orange / Matamp / vintage British amps
+     Guitar:      Fender Custom Shop / various custom
+     Pickups:     Single coil + humbucker configurations
+     Gain:        medium-high crunch, groovy and hypnotic
+     EQ:          warm heavy low end, mid-forward, treble restrained
+     Character:   Desert rock hypnotic groove — warm, fuzzy, downtuned, repetitive but evolving
+     Effects:     Fuzz (various), wah, phaser
+     Keywords:    desert rock rhythm, hypnotic groove, orange amp, fuzz, warm dark crunch, downtuned
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Orange / Matamp
+     Guitar:      Fender custom
+     Pickups:     Bridge
+     Gain:        high, warm fuzz
+     EQ:          warm mids, natural
+     Character:   Cool, effortless, melodic desert rock leads — never overplays
+     Effects:     Fuzz, wah, octave
+     Keywords:    effortless melodic leads, desert rock, fuzz, wah, cool phrasing
+
+  ····························································
+
+  [29] MODEST MOUSE
+       Genre: Indie Rock / Alternative Rock  |  Guitarist: Isaac Brock
+       Peak Era: 1997–2004
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / vintage
+     Guitar:      Various cheapo/vintage
+     Pickups:     Single coil
+     Gain:        clean to light crunch, angular
+     EQ:          jangly, bright, treble-forward
+     Character:   Angular indie rock — twangy, jangly, anxious
+     Effects:     Tremolo, reverb, delay
+     Keywords:    angular indie, jangly, twangy, tremolo, anxious feel
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender
+     Guitar:      Various
+     Pickups:     Single coil
+     Gain:        light
+     EQ:          bright
+     Character:   Simple, melodic, angular indie leads
+     Effects:     Reverb, delay
+     Keywords:    angular indie leads, simple, bright
+
+  ····························································
+
+  [30] LIMP BIZKIT
+       Genre: Nu-Metal / Rap Rock  |  Guitarist: Wes Borland
+       Peak Era: 1997–2000 (Significant Other / Chocolate Starfish)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Various (7-string Ibanez / bizarre custom visuals)
+     Pickups:     Active humbuckers
+     Gain:        very high, crushing low end
+     EQ:          mid-scooped heavy nu-metal
+     Character:   Crushing nu-metal chug — heavily downtuned 7-string with theatrical visual element
+     Effects:     Wah occasionally, pitch shifter
+     Keywords:    nu-metal chug, 7-string downtuned, Mesa Rectifier, crushing low end
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      7-string Ibanez
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mid-heavy
+     Character:   Unconventional, experimental, theatrical
+     Effects:     Whammy, pitch shifter, wah
+     Keywords:    experimental, theatrical, unconventional, 7-string
+
+  ····························································
+
+================================================================================
+  ERA: 2000s  (30 bands)
+================================================================================
+
+  [01] LINKIN PARK
+       Genre: Nu-Metal / Alternative Metal  |  Guitarist: Brad Delson
+       Peak Era: 2000–2003 (Hybrid Theory / Meteora)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Gibson / Ibanez
+     Pickups:     Active humbuckers
+     Gain:        high, digitally polished
+     EQ:          tight digital feel, mid-forward
+     Character:   Polished nu-metal rhythm — clean-produced heaviness
+     Effects:     None in guitar rig; massive sampling/DJ in production
+     Keywords:    polished nu-metal, tight, digital heavy, Mesa Rectifier
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Boogie
+     Guitar:      Gibson
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Minimal textural leads — serves vocal song structure
+     Effects:     Delay, modulation
+     Keywords:    minimal leads, song-serving, polished texture
+
+  ····························································
+
+  [02] SLIPKNOT
+       Genre: Nu-Metal / Alternative Metal / Groove Metal  |  Guitarist: Mick Thomson + Jim Root
+       Peak Era: 2001–2008 (Iowa / Vol. 3 / All Hope is Gone)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 5150
+     Guitar:      Ibanez 7-string / Jackson 7-string (downtuned A)
+     Pickups:     EMG 81/85 active 7-string
+     Gain:        maximum, crushing
+     EQ:          tight deep low end, mid-scooped presence, brutal
+     Character:   Maximum crushing modern metal — 7-string aggression, synchronized dual-guitar attack
+     Effects:     None
+     Keywords:    crushing 7-string, maximum gain, dual guitar, Mesa/Peavey 5150, EMG 7-string, synchronized attack
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      Ibanez 7-string
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          mids forward, harsh
+     Character:   Brutal, chaotic, yet sometimes melodic — Root especially
+     Effects:     Whammy, wah
+     Keywords:    brutal leads, chaotic, modern metal lead, whammy
+
+  ····························································
+
+  [03] THE STROKES
+       Genre: Indie Rock / Garage Rock Revival  |  Guitarist: Nick Valensi + Albert Hammond Jr.
+       Peak Era: 2001–2004 (Is This It / Room on Fire)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / Orange
+     Guitar:      Fender Stratocaster
+     Pickups:     Single coil (through amp with DI in production — distinctive boxed sound)
+     Gain:        DI-driven low-fi crunch — recorded DI into mixing board with AC30 simulation
+     EQ:          mid-forward, tinny/boxy in production, presence-heavy
+     Character:   The Strokes' secret: recorded guitars DI through mixing board then distorted — creates distinctive boxy, mid-forward indie crunch
+     Effects:     None (the magic is in the recording chain)
+     Keywords:    DI boxy crunch, indie garage revival, mid-forward, strat DI, distinctive boxy sound
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin through DI chain
+     Guitar:      Fender Strat
+     Pickups:     Bridge single coil
+     Gain:        medium, clean to crunch
+     EQ:          bright, boxy
+     Character:   Interweaving dual-guitar melodic lines — no soloist focus, both guitars share melody
+     Effects:     None
+     Keywords:    dual interweaving melodic lines, indie, boxy tone, no solos per se
+
+  ····························································
+
+  [04] NICKELBACK
+       Genre: Post-Grunge / Hard Rock  |  Guitarist: Ryan Peake + Chad Kroeger
+       Peak Era: 2001–2008 (Silver Side Up / The Long Road / All the Right Reasons)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        high, polished post-grunge
+     EQ:          full warm sound, heavy bass, mids present
+     Character:   Ultra-polished, massively produced post-grunge — warmth and commercial appeal
+     Effects:     None
+     Keywords:    polished post-grunge, warm heavy, commercial, Les Paul Mesa Rectifier
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high, smooth
+     EQ:          warm mids
+     Character:   Melodic, bluesy-influenced, commercial leads
+     Effects:     Delay, reverb
+     Keywords:    commercial melodic leads, bluesy, smooth, warm
+
+  ····························································
+
+  [05] AUDIOSLAVE
+       Genre: Alternative Metal / Hard Rock  |  Guitarist: Tom Morello
+       Peak Era: 2002–2007
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Arm The Homeless custom
+     Pickups:     Humbucker
+     Gain:        high, Morello-style experimentation
+     EQ:          mid-heavy, full
+     Character:   More classic rock than RATM — still experimental but heavier blues rock feel
+     Effects:     Whammy, wah, phaser
+     Keywords:    experimental hard rock rhythm, morello style, Dual Rectifier, whammy rhythm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      Arm The Homeless
+     Pickups:     Bridge humbucker
+     Gain:        very high
+     EQ:          variable
+     Character:   Experimental soundscapes, Zeppelin-influenced raw blues, whammy art
+     Effects:     Whammy, kill switch, wah, flanger, talk box
+     Keywords:    experimental leads, Zeppelin-blues influence, whammy art, kill switch, soundscape
+
+  ····························································
+
+  [06] MASTODON
+       Genre: Progressive Metal / Sludge Metal  |  Guitarist: Brent Hinds + Bill Kelliher
+       Peak Era: 2004–2009 (Leviathan / Blood Mountain / Crack the Skye)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Dual Rectifier / Orange
+     Guitar:      Gibson Flying V / Explorer (Brent), Gibson Les Paul (Bill)
+     Pickups:     Active / high-output humbuckers
+     Gain:        very high, thick sludge
+     EQ:          massive low end, mid-heavy, Southern doom-tinged
+     Character:   Progressive sludge/groove — complex riff progressions, heavy with jazz-influenced note choices
+     Effects:     Wah (Brent), phaser
+     Keywords:    progressive sludge, complex riffs, Flying V crunch, Southern doom, jazz-influenced heaviness
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Dual Rectifier / Orange
+     Guitar:      Gibson Flying V (Brent)
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Wild, creative, jazz-via-heavy-metal leads — Brent plays outside the box
+     Effects:     Wah, whammy, phase
+     Keywords:    creative leads, jazz-influenced heavy, outside the box, wah, wild phrasing
+
+  ····························································
+
+  [07] MY CHEMICAL ROMANCE
+       Genre: Emo / Post-Hardcore / Alternative Rock  |  Guitarist: Frank Iero + Ray Toro
+       Peak Era: 2004–2008 (Three Cheers / The Black Parade / Danger Days)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Gibson Les Paul / ESP
+     Pickups:     Humbuckers
+     Gain:        high, layered, theatrical
+     EQ:          full, warm, stadium-emo
+     Character:   Theatrical emo-metal — massive layered guitars serving orchestral-rock concept albums
+     Effects:     None
+     Keywords:    theatrical emo-metal, layered stadium, Mesa Rectifier, Les Paul crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, anthemic leads — Ray Toro is highly underrated
+     Effects:     Delay, harmonizer
+     Keywords:    anthemic leads, melodic, underrated technique, harmonizer
+
+  ····························································
+
+  [08] INTERPOL
+       Genre: Post-Punk Revival / Indie Rock  |  Guitarist: Daniel Kessler + Carlos Dengler
+       Peak Era: 2002–2007 (Turn on the Bright Lights / Antics / Our Love to Admire)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / Vox AC30
+     Guitar:      Gibson ES-335 / Telecaster
+     Pickups:     Single coil / humbucker
+     Gain:        clean to light crunch, atmospheric
+     EQ:          dark, brooding, reverb-drenched
+     Character:   Post-punk atmospheric darkness — Joy Division-influenced clean dark jangle
+     Effects:     Heavy reverb, delay, tremolo
+     Keywords:    post-punk atmospheric, dark jangle, Joy Division influenced, reverb-heavy, AC30 dark clean
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin / AC30
+     Guitar:      ES-335 / Tele
+     Pickups:     Bridge
+     Gain:        light crunch
+     EQ:          dark, atmospheric
+     Character:   Melodic, dark, interlocking angular lines
+     Effects:     Reverb, delay
+     Keywords:    dark melodic leads, angular, interlocking, post-punk
+
+  ····························································
+
+  [09] ARCTIC MONKEYS
+       Genre: Indie Rock / Garage Rock  |  Guitarist: Alex Turner + Jamie Cook
+       Peak Era: 2006–2009 (Whatever People Say / Favourite Worst Nightmare / Humbug)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Super Reverb / Orange (later Humbug era)
+     Guitar:      Fender Telecaster / Jazzmaster
+     Pickups:     Single coil
+     Gain:        light to medium crunch, garage-punky
+     EQ:          bright, jangly, punchy
+     Character:   British indie garage rock jangle — punky, fast, Sheffield grit
+     Effects:     Light chorus, reverb
+     Keywords:    indie garage jangle, British, Telecaster, punky, Sheffield grit
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender / Orange
+     Guitar:      Telecaster / Jazzmaster
+     Pickups:     Bridge single coil
+     Gain:        light to medium
+     EQ:          bright
+     Character:   Simple, catchy melodic leads
+     Effects:     Reverb, delay
+     Keywords:    catchy indie leads, simple, bright Tele
+
+  ····························································
+
+  [10] THE KILLERS
+       Genre: New Wave / Indie Rock / Alternative Rock  |  Guitarist: Dave Keuning
+       Peak Era: 2004–2007 (Hot Fuss / Sam's Town)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / Marshall JCM
+     Guitar:      Fender Stratocaster / Telecaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch, new-wave inspired
+     EQ:          bright, jangly, synth-complementing
+     Character:   New wave-influenced indie — guitar and synth share equal atmospheric texture
+     Effects:     Chorus, delay, phaser
+     Keywords:    new wave indie, synth-complementing, bright clean, chorus, Strat/Tele jangle
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin
+     Guitar:      Strat / Tele
+     Pickups:     Bridge
+     Gain:        light
+     EQ:          bright
+     Character:   New wave melodic lines, simple and hooky
+     Effects:     Chorus, delay
+     Keywords:    new wave melodic, hooky, bright, simple
+
+  ····························································
+
+  [11] PARAMORE
+       Genre: Pop Punk / Alternative Rock / Emo  |  Guitarist: Josh Farro + Taylor York
+       Peak Era: 2005–2009 (All We Know Is Falling / Riot! / Brand New Eyes)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa Boogie
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        medium-high punk crunch
+     EQ:          bright, punchy mids
+     Character:   Pop-punk arena crunch — big, punchy, accessible
+     Effects:     None
+     Keywords:    pop-punk crunch, arena, punchy, bright mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic pop-punk leads, anthemic
+     Effects:     Delay
+     Keywords:    anthemic leads, pop-punk, melodic
+
+  ····························································
+
+  [12] FALL OUT BOY
+       Genre: Pop Punk / Emo  |  Guitarist: Joe Trohman
+       Peak Era: 2005–2008 (From Under the Cork Tree / Infinity on High)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        medium-high, pop-punk
+     EQ:          bright punchy
+     Character:   Radio pop-punk crunch
+     Effects:     Chorus occasionally
+     Keywords:    pop-punk radio crunch, punchy, bright
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          bright
+     Character:   Fast punk leads and transitions
+     Effects:     None
+     Keywords:    fast punk leads, brief, catchy
+
+  ····························································
+
+  [13] MUSE
+       Genre: Alternative Rock / Progressive Rock  |  Guitarist: Matt Bellamy
+       Peak Era: 2003–2009 (Absolution / Black Holes and Revelations / The Resistance)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JMP-1 + Marshall Power Amps / Mesa Boogie
+     Guitar:      Manson Custom (various mirror guitars with built-in effects)
+     Pickups:     DiMarzio humbuckers
+     Gain:        high crunch + extreme effects processing
+     EQ:          full spectrum — fuzz, octave, synth-like washes
+     Character:   Space-rock psychedelic crunch — Bellamy combines Big Muff fuzz, whammy octaves, synth-guitar
+     Effects:     Electro-Harmonix POG, DigiTech Whammy, Big Muff fuzz, Kaoss Pad, Z.Vex Fuzz Factory
+     Keywords:    space rock fuzz, octave whammy, psychedelic, Kaoss pad, synth guitar, Fuzz Factory
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa cranked
+     Guitar:      Manson Custom
+     Pickups:     Bridge DiMarzio
+     Gain:        very high
+     EQ:          forward mids, presence
+     Character:   Explosive, melodic, Hendrix + Radiohead hybrid — technically outstanding
+     Effects:     POG, Whammy, Fuzz Factory, tremolo, wah
+     Keywords:    explosive melodic leads, Hendrix-Radiohead hybrid, POG octave, Fuzz Factory, technically outstanding
+
+  ····························································
+
+  [14] BRING ME THE HORIZON
+       Genre: Metalcore / Deathcore (early)  |  Guitarist: Lee Malia
+       Peak Era: 2006–2010 (Count Your Blessings / Suicide Season / There Is a Hell)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 6505
+     Guitar:      ESP / LTD 8-string (later) / 6-string (early)
+     Pickups:     Active EMG
+     Gain:        maximum, crushing metalcore
+     EQ:          scooped deep low end, tight tight tight
+     Character:   Metalcore/deathcore crushing rhythm — downpicked and mechanically precise
+     Effects:     None
+     Keywords:    metalcore crushing, deathcore rhythm, Peavey 6505, maximum gain, downpicked precision
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          presence high
+     Character:   Fast metalcore shred leads, harmonized
+     Effects:     Whammy, wah
+     Keywords:    metalcore shred leads, harmonized, whammy, fast
+
+  ····························································
+
+  [15] LAMB OF GOD
+       Genre: Groove Metal / New American Metal  |  Guitarist: Mark Morton + Willie Adler
+       Peak Era: 2003–2009 (Ashes of the Wake / Sacrament / Wrath)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Diezel VH4 / Mesa Boogie Dual Rectifier
+     Guitar:      ESP / Caparison (tuned B standard or drop A)
+     Pickups:     Seymour Duncan active humbuckers
+     Gain:        very high, ultra-tight groove
+     EQ:          heavy low-mid focus, tight bass, scooped upper mids
+     Character:   New American metal groove — Pantera's children, ultra-tight syncopated palm muting
+     Effects:     None
+     Keywords:    new American metal, ultra-tight groove, Diezel VH4, syncopated palm muting, Pantera-influenced
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Diezel VH4
+     Guitar:      ESP / Caparison
+     Pickups:     Bridge Seymour Duncan
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Melodic, pentatonic-influenced groove metal leads — Mark Morton especially
+     Effects:     Wah, delay
+     Keywords:    groove metal leads, melodic pentatonic, wah, Diezel tone
+
+  ····························································
+
+  [16] AS I LAY DYING
+       Genre: Metalcore  |  Guitarist: Nick Hipa + Phil Sgrosso
+       Peak Era: 2003–2008 (An Ocean Between Us / Frail Words Collapse)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505 / Mesa Boogie
+     Guitar:      ESP / LTD
+     Pickups:     Active EMG
+     Gain:        maximum metalcore
+     EQ:          scooped, tight
+     Character:   Technical metalcore rhythm — NWOHM meets extreme metal precision
+     Effects:     None
+     Keywords:    technical metalcore, Peavey 6505, tight scooped, precision
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          mids forward
+     Character:   Melodic metalcore harmonized leads
+     Effects:     Whammy, harmonizer
+     Keywords:    harmonized metalcore leads, melodic, whammy
+
+  ····························································
+
+  [17] AVENGED SEVENFOLD
+       Genre: Heavy Metal / Hard Rock / Metalcore (early)  |  Guitarist: Synyster Gates (lead) + Zacky Vengeance (rhythm)
+       Peak Era: 2005–2010 (City of Evil / Avenged Sevenfold / Nightmare)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505 / Marshall JCM800
+     Guitar:      Schecter / Gibson (Zacky)
+     Pickups:     Seymour Duncan active / passive
+     Gain:        high, punchy metal crunch
+     EQ:          balanced modern metal, mid-present
+     Character:   Modern heavy metal meets glam metal theatrics — aggressive but melodic
+     Effects:     None
+     Keywords:    modern heavy metal, theatrical, punchy crunch, mid-present
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505 / Marshall
+     Guitar:      Schecter Synyster Gates signature
+     Pickups:     Seymour Duncan 'Full Shred'
+     Gain:        very high, smooth
+     EQ:          mids forward, bright presence
+     Character:   Neoclassical-meets-glam metal — sweep picking, whammy, excellent melodic instinct
+     Effects:     Wah, DigiTech Whammy, delay
+     Keywords:    neoclassical metal leads, sweep picking, whammy, melodic instinct, Schecter tone
+
+  ····························································
+
+  [18] TRIVIUM
+       Genre: Metalcore / Heavy Metal  |  Guitarist: Corey Beaulieu + Matt Heafy
+       Peak Era: 2005–2009 (Ascendancy / The Crusade / Shogun)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 6505
+     Guitar:      ESP / Schecter
+     Pickups:     Active humbuckers
+     Gain:        very high, tight modern metal
+     EQ:          mid-forward, tight bass, presence
+     Character:   Modern melodic death/metalcore rhythm — European NWOBHM influence on American metalcore
+     Effects:     None
+     Keywords:    melodic metalcore, modern metal rhythm, Mesa/Peavey, tight, NWOBHM-influenced
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Melodic, Iron Maiden-influenced harmonized leads, technically excellent
+     Effects:     Whammy, harmonizer, delay
+     Keywords:    Iron Maiden-influenced, harmonized metalcore leads, melodic, technically excellent
+
+  ····························································
+
+  [19] BULLET FOR MY VALENTINE
+       Genre: Metalcore / Heavy Metal  |  Guitarist: Matt Tuck + Michael Paget
+       Peak Era: 2005–2010 (The Poison / Scream Aim Fire / Fever)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505 / Mesa Boogie
+     Guitar:      ESP / Jackson (M-II style)
+     Pickups:     Active EMG
+     Gain:        very high, smooth modern
+     EQ:          polished modern metal, tight
+     Character:   British metalcore — polished, accessible, Iron Maiden lineage clear
+     Effects:     None
+     Keywords:    British metalcore rhythm, polished, Peavey 6505, Iron Maiden influence
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          mids present, bright
+     Character:   Melodic harmonized leads, twin-guitar Maiden approach
+     Effects:     Whammy, harmonizer, wah
+     Keywords:    melodic twin leads, harmonized, British metalcore lead, Maiden style
+
+  ····························································
+
+  [20] IN FLAMES
+       Genre: Melodic Death Metal / Alternative Metal  |  Guitarist: Björn Gelotte + Jesper Strömblad
+       Peak Era: 2002–2006 (Come Clarity / Reroute to Remain)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      ESP / Custom
+     Pickups:     Active humbuckers
+     Gain:        very high, melodic death
+     EQ:          European warm mid-heavy
+     Character:   Gothenburg melodic death metal rhythm — harmony-driven, warm European character
+     Effects:     None
+     Keywords:    Gothenburg melody, warm European metal, Mesa Rectifier, harmony-driven rhythm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mids warm
+     Character:   Classically-influenced melodic leads, inherently harmonic
+     Effects:     Harmonizer, delay
+     Keywords:    Gothenburg melodic leads, classical influence, harmonic, warm
+
+  ····························································
+
+  [21] EVANESCENCE
+       Genre: Alternative Metal / Gothic Rock  |  Guitarist: John LeCompt / Terry Balsamo
+       Peak Era: 2003–2006 (Fallen / The Open Door)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      ESP / Gibson
+     Pickups:     Active humbuckers
+     Gain:        high, gothic-metal atmosphere
+     EQ:          warm but dark, piano-complementing
+     Character:   Gothic alternative metal rhythm — heavy but atmospherically dark, complements orchestration
+     Effects:     None
+     Keywords:    gothic metal rhythm, dark atmospheric, piano-complementing, Mesa Rectifier
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Symphonic, emotive leads
+     Effects:     Delay, reverb
+     Keywords:    symphonic leads, emotive, gothic
+
+  ····························································
+
+  [22] KILLSWITCH ENGAGE
+       Genre: Metalcore  |  Guitarist: Adam Dutkiewicz + Joel Stroetzel
+       Peak Era: 2002–2006 (Alive or Just Breathing / The End of Heartache / As Daylight Dies)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 6505
+     Guitar:      ESP / Schecter
+     Pickups:     Active EMG
+     Gain:        maximum metalcore
+     EQ:          tight, scooped modern metal
+     Character:   American metalcore archetype — precise, heavy, anthemic
+     Effects:     None
+     Keywords:    American metalcore archetype, maximum gain, precise, heavy anthem rhythm
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa / Peavey
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          mids forward
+     Character:   Adam D's melodic, New England metalcore leads — emotional and precise
+     Effects:     Harmonizer, wah
+     Keywords:    New England metalcore leads, emotional precision, harmonized, wah
+
+  ····························································
+
+  [23] HATEBREED
+       Genre: Hardcore Punk / Metalcore  |  Guitarist: Wayne Lozinak + Frank Novinec
+       Peak Era: 2002–2006
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505 / Mesa
+     Guitar:      Gibson / ESP
+     Pickups:     Active humbuckers
+     Gain:        maximum, hardcore brutal
+     EQ:          mid-forward brutal, tight bass
+     Character:   Hardcore metallic brutality — relentless downtempo mosh riffs
+     Effects:     None
+     Keywords:    hardcore metallic, brutal rhythm, Peavey 6505, mosh riffs
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505
+     Guitar:      Gibson / ESP
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          mid-heavy
+     Character:   Short, brutal leads within mosh context
+     Effects:     None
+     Keywords:    brutal short leads, hardcore, mosh context
+
+  ····························································
+
+  [24] GOJIRA
+       Genre: Progressive Metal / Technical Death Metal  |  Guitarist: Joe Duplantier + Christian Andreu
+       Peak Era: 2016–2022 (Magma / The Way of All Flesh as foundation, peaked Magma era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 6505+
+     Guitar:      Custom Duplantier guitars / Gibson Explorer
+     Pickups:     Active humbuckers (Bare Knuckle)
+     Gain:        very high, extremely tight, surgical
+     EQ:          mid-heavy, extremely controlled, warm but punchy
+     Character:   French progressive death metal — ultra-controlled, technical, unique tremolo-whammying, heavy but surgical
+     Effects:     Whammy (used structurally, not as decoration)
+     Keywords:    progressive death rhythm, ultra-controlled, surgical tightness, tremolo whammy texture, Duplantier custom
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier / Peavey 6505+
+     Guitar:      Duplantier custom
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mids dominant, controlled
+     Character:   Controlled, atmospheric, environmental — not shred, but massively expressive
+     Effects:     Whammy, delay, reverb (atmospheric)
+     Keywords:    atmospheric leads, controlled expression, whammy structures, environmental tone
+
+  ····························································
+
+  [25] DRAGONFORCE
+       Genre: Power Metal / Speed Metal  |  Guitarist: Herman Li + Sam Totman
+       Peak Era: 2004–2008 (Sonic Firestorm / Inhuman Rampage)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie / Engl Fireball
+     Guitar:      Ibanez / custom
+     Pickups:     Active humbuckers
+     Gain:        very high, ultra-fast
+     EQ:          bright, presence-heavy, mid-scooped slightly
+     Character:   Hyperspeed power metal — the fastest rhythm guitar in mainstream metal
+     Effects:     Chorus (for the shiny FM-radio power metal feel), digital reverb
+     Keywords:    hyperspeed power metal, ultra-fast rhythm, bright polished, ENGL Fireball, chorus-drenched
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         ENGL / Mesa
+     Guitar:      Ibanez custom
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          presence forward
+     Character:   Extreme speed, dive bomb chaos, comedy-speed arpeggios — Herman Li whammy insanity
+     Effects:     DigiTech Whammy extreme, harmonizer, pitch shifter chaos
+     Keywords:    extreme speed leads, whammy insanity, comedy arpeggios, pitch shifter chaos
+
+  ····························································
+
+  [26] DISTURBED
+       Genre: Nu-Metal / Alternative Metal  |  Guitarist: Dan Donegan
+       Peak Era: 2000–2005 (The Sickness / Believe / Ten Thousand Fists)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      Dean / B.C. Rich
+     Pickups:     Active humbuckers
+     Gain:        high, tight modern metal
+     EQ:          mid-forward, heavy bass
+     Character:   Commercial modern metal — heavier alternative metal with radio sensibility
+     Effects:     None
+     Keywords:    commercial modern metal, tight, Mesa Rectifier, mid-forward
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      Dean
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, simple, hard rock leads
+     Effects:     Delay, wah
+     Keywords:    commercial metal leads, melodic simple, wah
+
+  ····························································
+
+  [27] COHEED AND CAMBRIA
+       Genre: Progressive Rock / Post-Hardcore  |  Guitarist: Claudio Sanchez
+       Peak Era: 2003–2007 (Good Apollo / Second Stage Turbine Blade)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM2000
+     Guitar:      Gibson SG
+     Pickups:     Humbuckers
+     Gain:        medium-high, progressive rock
+     EQ:          bright, full mids
+     Character:   Prog-rock post-hardcore crunch — cinematic, layered, emotional
+     Effects:     Chorus, delay
+     Keywords:    prog post-hardcore, cinematic, SG crunch, layered, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall JCM2000
+     Guitar:      Gibson SG
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic prog-rock leads, sweeping, theatrical
+     Effects:     Delay, harmonizer
+     Keywords:    prog theatrical leads, sweeping, melodic, harmonizer
+
+  ····························································
+
+  [28] OPETH
+       Genre: Progressive Death Metal / Progressive Rock  |  Guitarist: Mikael Åkerfeldt + Peter Lindgren / Fredrik Åkesson
+       Peak Era: 2001–2008 (Blackwater Park / Ghost Reveries / Watershed)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Krank
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        very high when heavy / completely clean when acoustic
+     EQ:          warm heavy low end, full mids for death-clean dual personality
+     Character:   Extreme contrast — crushing death metal riffs alongside completely clean/acoustic passages; no in-between
+     Effects:     None in heavy mode; reverb in clean mode
+     Keywords:    death metal / acoustic duality, extreme contrast, warm heavy mids, Mesa Rectifier, clean/heavy switching
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa / Krank cranked
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          warm mids
+     Character:   Jazz-influenced progressive death metal leads — beautiful and heavy alternating
+     Effects:     Wah, delay
+     Keywords:    jazz-prog death leads, beautiful and heavy, melodic sophistication, wah
+
+  ····························································
+
+  [29] BLOC PARTY
+       Genre: Post-Punk Revival / Indie Rock  |  Guitarist: Russell Lissack
+       Peak Era: 2005–2008 (Silent Alarm / A Weekend in the City)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / Vox AC30
+     Guitar:      Fender Jazzmaster / Telecaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch, angular
+     EQ:          bright, sparse, angular
+     Character:   Angular post-punk indie — fast angular rhythms with dance-punk energy
+     Effects:     Delay, reverb
+     Keywords:    angular post-punk, dance-punk, Jazzmaster, clean angular, sparse
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender / AC30
+     Guitar:      Jazzmaster / Tele
+     Pickups:     Bridge
+     Gain:        light
+     EQ:          bright
+     Character:   Arpeggiated textural lines, melodic
+     Effects:     Delay, chorus
+     Keywords:    arpeggiated leads, textural, indie
+
+  ····························································
+
+  [30] 30 SECONDS TO MARS
+       Genre: Alternative Rock / Post-Grunge  |  Guitarist: Tomo Miličević
+       Peak Era: 2005–2009 (A Beautiful Lie / This Is War)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Gibson / Various
+     Pickups:     Humbuckers
+     Gain:        medium-high, cinematic
+     EQ:          full warm, radio-friendly
+     Character:   Cinematic stadium alternative metal — designed for arenas
+     Effects:     Chorus, delay
+     Keywords:    cinematic stadium rock, full warm, radio-friendly, chorus
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Gibson
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic stadium leads
+     Effects:     Delay, reverb
+     Keywords:    stadium melodic leads, cinematic, delay
+
+  ····························································
+
+================================================================================
+  ERA: 2010s  (30 bands)
+================================================================================
+
+  [01] GOJIRA
+       Genre: Progressive Metal / Technical Death Metal / Environmental Metal  |  Guitarist: Joe Duplantier + Christian Andreu
+       Peak Era: 2012–2022 (L'Enfant Sauvage / Magma — peaked Magma 2016)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / custom Joe Duplantier rig (also Peavey 6505+ era)
+     Guitar:      Joe Duplantier custom guitars (Vigier-based then fully custom)
+     Pickups:     Bare Knuckle Warpig / high-output active-like passive humbuckers
+     Gain:        extremely tight, high gain — Duplantier mixes himself for surgical precision
+     EQ:          warm but cutting mids, controlled low end, unique presence peak
+     Character:   The most technically controlled modern metal tone — unique tremolo arm techniques (whammy as rhythm texture), palm mute control, perfectly mixed with no mud
+     Effects:     Floyd Rose whammy bar used as rhythmic texture element (not divebombs)
+     Keywords:    surgical precision tone, tremolo rhythm texture, controlled modern metal, Duplantier custom, Bare Knuckle Warpig, warm-yet-cutting mids
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier / custom rig
+     Guitar:      Duplantier custom
+     Pickups:     Bridge Bare Knuckle
+     Gain:        very high
+     EQ:          forward warm mids, atmospheric
+     Character:   Environmental, atmospheric — leads feel like natural phenomena; Magma-era leads are sparse, devastating
+     Effects:     Whammy structural use, reverb, delay (long atmospheric trails)
+     Keywords:    atmospheric environmental leads, sparse devastating, whammy structure, long reverb trails, natural phenomena feel
+
+  ····························································
+
+  [02] PERIPHERY
+       Genre: Djent / Progressive Metal  |  Guitarist: Misha Mansoor + Mark Holcomb + Jake Bowen
+       Peak Era: 2010–2016 (Periphery I / Juggernaut / Periphery III)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Audio Axe-Fx II (direct digital amp simulation — no real amp)
+     Guitar:      Ibanez 7/8-string / PRS SE (Holcomb signature) tuned B or lower
+     Pickups:     Bare Knuckle Aftermath / Nazgul/Sentient combination (Holcomb)
+     Gain:        high, ultra-precise djent clipping
+     EQ:          mid-heavy djent scoop — boosted upper mids, tight bass (Axe-Fx EQ), presence cut for clarity
+     Character:   Djent founding tone — digital amp simulation, ultra-tight, single-note chug on low 7/8-string, crystal-clear articulation at maximum gain
+     Effects:     Axe-Fx onboard effects, IRs, gate (ESSENTIAL for djent clarity)
+     Keywords:    djent, Axe-Fx II, 7/8-string, ultra-tight digital, Bare Knuckle, noise gate essential, single-note chug
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fractal Audio Axe-Fx II
+     Guitar:      PRS / Ibanez 8-string
+     Pickups:     Bridge Bare Knuckle
+     Gain:        high
+     EQ:          forward mids, presence
+     Character:   Melodic, prog-clean leads over the djent heaviness — often contrasts heavy with clean tones
+     Effects:     Axe-Fx chorus, delay, reverb
+     Keywords:    melodic prog leads, Axe-Fx leads, clean/heavy contrast, articulate high gain leads
+
+  ····························································
+
+  [03] GHOST
+       Genre: Heavy Metal / Hard Rock / Glam Rock  |  Guitarist: Various 'Nameless Ghouls'
+       Peak Era: 2013–2018 (Infestissumam / Meliora / Prequelle)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JVM / Bogner
+     Guitar:      Gibson Les Paul
+     Pickups:     Humbuckers
+     Gain:        medium crunch, classic rock
+     EQ:          warm, full mids, vintage character
+     Character:   Vintage-inspired rock crunch beneath occult theatrics — Blue Öyster Cult meets ABBA
+     Effects:     None
+     Keywords:    vintage rock crunch, occult rock, les paul, warm mid, theatrical
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Bogner
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          mids forward
+     Character:   ABBA-meets-Black-Sabbath melodic leads — catchy, poppy but dark
+     Effects:     Delay, harmonizer
+     Keywords:    melodic occult leads, ABBA-Sabbath hybrid, catchy dark, harmonizer
+
+  ····························································
+
+  [04] PARKWAY DRIVE
+       Genre: Metalcore  |  Guitarist: Jeff Ling + Luke Kilpatrick
+       Peak Era: 2010–2018 (Deep Blue / Atlas / Reverence)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505+ / Mesa Boogie
+     Guitar:      ESP / Ibanez
+     Pickups:     Active humbuckers (Seymour Duncan Blackouts)
+     Gain:        maximum, relentless
+     EQ:          tight, deep low end, presence forward
+     Character:   Australian metalcore — relentless, heavy, anthemic breakdowns
+     Effects:     None
+     Keywords:    Australian metalcore, relentless heavy, Peavey 6505+, anthemic breakdowns, Blackouts pickups
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505+
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          mids forward
+     Character:   Melodic metalcore leads, stadium-sized
+     Effects:     Delay, harmonizer
+     Keywords:    stadium metalcore leads, melodic, harmonizer
+
+  ····························································
+
+  [05] ARCHITECTS
+       Genre: Metalcore / Progressive Metalcore  |  Guitarist: Tom Searle (late), Josh Middleton (after Tom's passing)
+       Peak Era: 2012–2018 (Lost Forever // Lost Together / All Our Gods Have Abandoned Us / Holy Hell)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Peavey 6505
+     Guitar:      ESP / Schecter
+     Pickups:     Active humbuckers (EMG 81)
+     Gain:        very high, technical precision
+     EQ:          mid-forward, tight, modern metalcore
+     Character:   British progressive metalcore — precise, technical, emotional, genre-defining 2010s metalcore tone
+     Effects:     None
+     Keywords:    British progressive metalcore, technical precision, mid-forward, genre-defining, emotional heaviness
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Tom Searle's melodic, emotional leads — devastating with context
+     Effects:     Delay, reverb (emotional use)
+     Keywords:    emotional metalcore leads, devastating melodic, reverb depth, British prog metalcore
+
+  ····························································
+
+  [06] DEAFHEAVEN
+       Genre: Black Metal / Shoegaze / Post-Rock  |  Guitarist: Kerry McCoy
+       Peak Era: 2013–2018 (Sunbather / New Bermuda / Ordinary Corrupt Human Love)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall JCM800 / Orange
+     Guitar:      Various (often vintage-modified)
+     Pickups:     Various
+     Gain:        very high, tremolo-picked black metal
+     EQ:          treble-heavy, cold, atmospheric
+     Character:   Blackgaze — black metal tremolo riffing with shoegaze dreamy atmosphere layered over; cold raw with warmth underneath
+     Effects:     Heavy reverb for the shoegaze element
+     Keywords:    blackgaze, tremolo riffing, shoegaze reverb, cold atmospheric, black metal raw + warm dreamscape
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Orange
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          atmospheric treble
+     Character:   Tremolo-dominated, atmospheric — the 'lead' blends into the wall of sound
+     Effects:     Heavy reverb, delay
+     Keywords:    atmospheric tremolo leads, wall of sound, shoegaze reverb lead
+
+  ····························································
+
+  [07] THE 1975
+       Genre: Indie Pop / Alternative Rock  |  Guitarist: Adam Hann
+       Peak Era: 2013–2016 (The 1975 / I Like It When You Sleep)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / various digital
+     Guitar:      Fender Stratocaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch, 80s-inspired
+     EQ:          bright, jangly, 80s new wave character
+     Character:   80s new wave meets modern indie pop — bright, clean, chorus-heavy, nostalgic
+     Effects:     Chorus (heavy), reverb, delay
+     Keywords:    80s new wave indie, bright clean, heavy chorus, nostalgic, Strat jangle
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin
+     Guitar:      Strat
+     Pickups:     Bridge
+     Gain:        light
+     EQ:          bright
+     Character:   80s-influenced melodic pop leads
+     Effects:     Chorus, delay
+     Keywords:    80s-influenced pop leads, bright melodic, chorus lead
+
+  ····························································
+
+  [08] TWENTY ONE PILOTS
+       Genre: Alternative / Pop Rock / Indie  |  Guitarist: Josh Dun (drums) / Tyler Joseph (guitar minimally)
+       Peak Era: 2015–2018 (Blurryface / Trench)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Digital rig
+     Guitar:      Ukulele / simple guitar layers
+     Pickups:     N/A
+     Gain:        clean, minimal guitar presence
+     EQ:          piano and bass dominated
+     Character:   Guitar is secondary — piano, ukulele, bass, and drums are primary. When guitar appears: clean, poppy
+     Effects:     Minimal
+     Keywords:    minimal guitar, clean pop, guitar as texture only, piano-driven band
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Digital
+     Guitar:      Minimal
+     Pickups:     N/A
+     Gain:        clean
+     EQ:          bright
+     Character:   Minimal guitar lead presence — not guitar-forward
+     Effects:     Reverb
+     Keywords:    minimal lead, clean pop texture
+
+  ····························································
+
+  [09] DEFTONES
+       Genre: Alternative Metal / Shoegaze / Nu-Metal  |  Guitarist: Stephen Carpenter
+       Peak Era: 2010–2016 (Diamond Eyes / Koi No Yokan / Gore)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Krank Revolution
+     Guitar:      7/8-string Ibanez / Schecter (very low tuning)
+     Pickups:     Active humbuckers
+     Gain:        very high, crushing but atmospheric
+     EQ:          massive sub-low, dark mid, presence restraint
+     Character:   Atmospheric metal — ultra heavy low end coexists with shimmering clean guitars; Stephen plays crushing; Chino shapes atmosphere
+     Effects:     None (Carpenter's rig); Cheng uses delay/reverb for clean atmosphere
+     Keywords:    atmospheric heavy metal, 7/8-string sub-bass, massive low end, shoegaze-metal duality, Krank / Mesa Rectifier
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Rectifier
+     Guitar:      7/8-string Ibanez
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          sub-bass presence
+     Character:   Sparse, atmospheric, not traditionally lead-focused
+     Effects:     Wah occasionally, delay
+     Keywords:    atmospheric sparse leads, heavy texture, 7-string atmospheric
+
+  ····························································
+
+  [10] HALSEY
+       Genre: Pop / Synth Pop (minimal guitar)  |  Guitarist: N/A — production-based
+       Peak Era: 2015–2020
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         N/A
+     Guitar:      Programmed guitars/synth
+     Pickups:     N/A
+     Gain:        N/A
+     EQ:          N/A
+     Character:   Pop production — guitar mostly programmed or minimal acoustic/electric texture
+     Effects:     N/A
+     Keywords:    pop production, minimal guitar, synth-driven
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         N/A
+     Guitar:      N/A
+     Pickups:     N/A
+     Gain:        N/A
+     EQ:          N/A
+     Character:   Not a guitar-forward act
+     Effects:     N/A
+     Keywords:    non-guitar act
+
+  ····························································
+
+  [11] KNOCKED LOOSE
+       Genre: Metalcore / Hardcore  |  Guitarist: Isaac Hale + Kevin Otten
+       Peak Era: 2016–2022 (Laugh Tracks / A Different Shade of Blue)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505+ / Kemper (Hale)
+     Guitar:      ESP / LTD
+     Pickups:     Active EMG / Fishman Fluence
+     Gain:        maximum, brutal hardcore
+     EQ:          tight, mid-scooped brutal
+     Character:   Modern bruising hardcore-metalcore — raw, violent energy
+     Effects:     None
+     Keywords:    brutal hardcore-metalcore, maximum gain, Peavey 6505+ / Kemper, violent energy
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505+
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          mid-forward
+     Character:   Aggressive, brief, context-heavy leads
+     Effects:     Minimal
+     Keywords:    aggressive leads, brief context, hardcore
+
+  ····························································
+
+  [12] CODE ORANGE
+       Genre: Metalcore / Avant-garde Metal  |  Guitarist: Reba Meyers + Dominic Landolina
+       Peak Era: 2017–2022 (Forever / Underneath)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper Profiler / various digital
+     Guitar:      Various
+     Pickups:     Active humbuckers
+     Gain:        maximum, industrial metalcore
+     EQ:          brutal mid-forward industrial
+     Character:   Avant-garde industrial metalcore — experimental, brutal, unpredictable
+     Effects:     Industrial FX, noise, distortion layers
+     Keywords:    avant-garde industrial metalcore, experimental, Kemper, brutal unpredictable
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Kemper Profiler
+     Guitar:      Various
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          variable
+     Character:   Experimental, noisy leads — not conventional
+     Effects:     Heavy FX processing
+     Keywords:    experimental leads, noisy, industrial
+
+  ····························································
+
+  [13] SLEEP TOKEN
+       Genre: Progressive Metal / Art Rock / Nu-Metal (second wave)  |  Guitarist: II (Vessel's collaborators)
+       Peak Era: 2021–2023 (Take Me Back to Eden / This Place Will Become Your Home)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper / Axe-Fx III
+     Guitar:      Various, often 8-string
+     Pickups:     Fishman Fluence / Bare Knuckle
+     Gain:        high, atmospheric heavy
+     EQ:          wide dynamic range — clean ambient to extreme heavy
+     Character:   Modern post-nu-metal atmospheric — extreme contrast clean-to-crushing, cinematic scope
+     Effects:     Various atmospheric FX, reverb, delay
+     Keywords:    atmospheric modern metal, extreme clean-heavy contrast, cinematic, Kemper / Axe-Fx, 8-string
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      8-string / various
+     Pickups:     Bridge Fishman
+     Gain:        high, atmospheric
+     EQ:          forward mids
+     Character:   Ambient, textural, emotionally devastating leads
+     Effects:     Deep reverb, delay, modulation
+     Keywords:    ambient leads, textural, emotionally devastating, cinematic
+
+  ····························································
+
+  [14] SPIRITBOX
+       Genre: Metalcore / Progressive Metal  |  Guitarist: Mike Stringer
+       Peak Era: 2021–2023
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Axe-Fx III / Kemper
+     Guitar:      Extended range guitar (7/8-string)
+     Pickups:     Fishman Fluence Modern
+     Gain:        very high, modern tight
+     EQ:          Ola Englund style — presence boosted, scooped but articulate
+     Character:   Modern hyper-produced metalcore — pristine digital heavy metal
+     Effects:     None in signal chain; Axe-Fx handles all
+     Keywords:    modern hyper-produced metalcore, Axe-Fx III, Fishman Fluence, pristine digital heavy
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      7-string
+     Pickups:     Bridge Fishman
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Technical, melodic metalcore leads
+     Effects:     Delay, reverb
+     Keywords:    technical melodic leads, modern metalcore, Axe-Fx leads
+
+  ····························································
+
+  [15] ALTER BRIDGE
+       Genre: Hard Rock / Heavy Metal  |  Guitarist: Mark Tremonti
+       Peak Era: 2010–2016 (AB III / Fortress / The Last Hero)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      PRS Mark Tremonti signature
+     Pickups:     PRS humbuckers
+     Gain:        high, smooth Mesa warmth
+     EQ:          warm heavy, mids present
+     Character:   Modern hard rock heavy rhythm — warm Mesa smoothness with PRS character
+     Effects:     None
+     Keywords:    modern hard rock heavy, warm Mesa, PRS character, Tremonti signature
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      PRS Tremonti signature
+     Pickups:     Bridge PRS
+     Gain:        very high, smooth sustained
+     EQ:          mids heavy, warm
+     Character:   World-class rock leads — Tremonti is one of the best modern rock guitarists
+     Effects:     Delay, wah
+     Keywords:    world-class rock leads, smooth sustained, PRS warmth, modern hard rock lead
+
+  ····························································
+
+  [16] POLYPHIA
+       Genre: Progressive Rock / Math Rock / Djent  |  Guitarist: Tim Henson + Scott LePage
+       Peak Era: 2017–2022 (New Levels New Devils / Remember That You Will Die)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Audio Axe-Fx III / Kemper
+     Guitar:      PRS Custom 24 / Ibanez
+     Pickups:     Fishman Fluence
+     Gain:        very low — Polyphia is mostly clean with precise technique
+     EQ:          bright, clear, glassy clean — ultra-articulate
+     Character:   Math-rock prog clean precision — often sounds more like a video game/Asian pop fusion than metal; ultra-clean articulation is the point
+     Effects:     Chorus, delay (modern trap/hip-hop inspired FX applied to guitar)
+     Keywords:    ultra-clean math rock, Axe-Fx clean, glassy precision, trap-fusion guitar, Fishman clean, hip-hop FX on guitar
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fractal Axe-Fx III
+     Guitar:      PRS Custom / Ibanez
+     Pickups:     Bridge Fishman
+     Gain:        very low, clean
+     EQ:          ultra-clear bright
+     Character:   Technical clean leads that defy genre — tapping, legato, hybrid picking at extreme precision
+     Effects:     Chorus, pitch shift, delay
+     Keywords:    technical clean leads, ultra-precise tapping, hybrid picking, genre-defying, clean articulation
+
+  ····························································
+
+  [17] HOZIER
+       Genre: Blues Rock / Indie Folk  |  Guitarist: Hozier (Andrew Hozier-Byrne)
+       Peak Era: 2014–2019
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / vintage amps
+     Guitar:      Gibson acoustic / electric
+     Pickups:     Humbuckers / acoustic
+     Gain:        clean to light crunch, blues-folk
+     EQ:          warm, natural, acoustic
+     Character:   Dark folk-blues — organic, natural, gospel-tinged
+     Effects:     Reverb, light delay
+     Keywords:    folk blues rhythm, organic, gospel-tinged, warm natural, acoustic character
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender vintage
+     Guitar:      Gibson electric
+     Pickups:     Bridge humbucker
+     Gain:        light crunch
+     EQ:          warm mids
+     Character:   Soulful, blues-inflected rock leads
+     Effects:     Reverb, wah
+     Keywords:    soulful blues leads, warm, organic, wah
+
+  ····························································
+
+  [18] NOTHING BUT THIEVES
+       Genre: Alternative Rock / Indie Rock  |  Guitarist: Joe Langridge-Brown
+       Peak Era: 2015–2020
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / Marshall
+     Guitar:      Fender Jazzmaster
+     Pickups:     Single coil
+     Gain:        clean to medium crunch
+     EQ:          bright, indie character
+     Character:   Modern British indie alt-rock
+     Effects:     Chorus, delay, reverb
+     Keywords:    British indie rhythm, Jazzmaster, chorus delay, modern alternative
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender / Marshall
+     Guitar:      Jazzmaster
+     Pickups:     Bridge
+     Gain:        medium
+     EQ:          bright
+     Character:   Melodic indie rock leads
+     Effects:     Delay, reverb
+     Keywords:    melodic indie leads, bright, British alt
+
+  ····························································
+
+  [19] FOXING
+       Genre: Emo / Post-Rock / Indie  |  Guitarist: Ricky Sampson
+       Peak Era: 2015–2018
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender
+     Guitar:      Strat / Jazzmaster
+     Pickups:     Single coil
+     Gain:        clean to light
+     EQ:          bright, atmospheric
+     Character:   Emotional indie emo atmosphere
+     Effects:     Reverb, tremolo, delay
+     Keywords:    emo atmosphere, clean reverb, tremolo, atmospheric indie
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender
+     Guitar:      Jazzmaster
+     Pickups:     Bridge
+     Gain:        light
+     EQ:          bright
+     Character:   Atmospheric melodic emo leads
+     Effects:     Heavy reverb, delay
+     Keywords:    atmospheric emo leads, reverb-drenched, bright melodic
+
+  ····························································
+
+  [20] NECK DEEP
+       Genre: Pop Punk  |  Guitarist: Matt West + Sam Bowden
+       Peak Era: 2014–2018
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Gibson Les Paul / Jackson
+     Pickups:     Humbuckers
+     Gain:        medium-high pop-punk crunch
+     EQ:          bright punchy
+     Character:   Modern pop-punk rhythm — catchy and energetic
+     Effects:     None
+     Keywords:    modern pop-punk crunch, punchy, catchy, energetic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          bright mids
+     Character:   Pop-punk melodic leads
+     Effects:     Delay
+     Keywords:    pop-punk leads, melodic, catchy
+
+  ····························································
+
+  [21] BAD OMENS
+       Genre: Metalcore / Alternative Metal  |  Guitarist: Nicholas Ruffilo + Noah Sebastian
+       Peak Era: 2019–2023
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Axe-Fx III / Kemper
+     Guitar:      PRS / Jackson 8-string
+     Pickups:     Fishman Fluence / active humbuckers
+     Gain:        high, polished modern metalcore
+     EQ:          modern djent-adjacent, mid-forward
+     Character:   Modern polished metalcore meets alternative rock — blends clean and heavy seamlessly
+     Effects:     None in guitar chain
+     Keywords:    modern metalcore meets alt rock, polished, Axe-Fx III, clean-heavy blend, Fishman
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      PRS / Jackson
+     Pickups:     Bridge Fishman
+     Gain:        high
+     EQ:          mids forward
+     Character:   Modern atmospheric metalcore leads
+     Effects:     Delay, reverb
+     Keywords:    modern metalcore leads, atmospheric, polished
+
+  ····························································
+
+  [22] BRING ME THE HORIZON
+       Genre: Metalcore / Alternative Rock / Electronic Metal  |  Guitarist: Lee Malia
+       Peak Era: 2013–2019 (Sempiternal / That's the Spirit / amo)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier / Kemper (later)
+     Guitar:      ESP/LTD Lee Malia signature
+     Pickups:     EMG 81/85
+     Gain:        very high (Sempiternal) to medium-high pop (amo)
+     EQ:          evolving — deep metal to pop-adjacent over the years
+     Character:   Sempiternal: crushing metalcore; That's the Spirit: polished radio metal; amo: pop-metal with electronic backing
+     Effects:     None to chorus/delay depending on era
+     Keywords:    evolving metalcore to pop-metal, Sempiternal crushing, polished radio metal, ESP Lee Malia, EMG 81
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa / Kemper depending on era
+     Guitar:      ESP Lee Malia
+     Pickups:     Bridge EMG
+     Gain:        high to medium across eras
+     EQ:          mids forward
+     Character:   Evolving from metalcore leads to melodic alt-metal leads
+     Effects:     Delay, modulation (amo era)
+     Keywords:    evolving leads, metalcore to pop-metal, delay modulation, Lee Malia signature
+
+  ····························································
+
+  [23] PERIPHERY
+       Genre: Djent / Progressive Metal  |  Guitarist: Misha Mansoor + Mark Holcomb + Jake Bowen
+       Peak Era: 2011–2016
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         See rank 2 entry
+     Guitar:      See rank 2 entry
+     Pickups:     See rank 2 entry
+     Gain:        See rank 2 entry
+     EQ:          See rank 2 entry
+     Character:   See rank 2 entry
+     Effects:     See rank 2 entry
+     Keywords:    see rank 2
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         See rank 2 entry
+     Guitar:      See rank 2 entry
+     Pickups:     See rank 2 entry
+     Gain:        See rank 2 entry
+     EQ:          See rank 2 entry
+     Character:   See rank 2 entry
+     Effects:     See rank 2 entry
+     Keywords:    see rank 2
+
+  ····························································
+
+  [24] TESSERACT
+       Genre: Djent / Progressive Metal  |  Guitarist: Acle Kahney + James Monteith
+       Peak Era: 2011–2018 (One / Polaris / Sonder)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Axe-Fx / Mesa Boogie
+     Guitar:      Extended range guitars (7/8-string)
+     Pickups:     Active humbuckers
+     Gain:        high, progressive djent
+     EQ:          warm djent — less scooped than Periphery, more mid-rich
+     Character:   British djent warmth — more organic feeling than American djent
+     Effects:     None
+     Keywords:    British djent, warm progressive, 7/8-string, mid-rich, organic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx / Mesa
+     Guitar:      7/8-string
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          warm mids
+     Character:   Atmospheric, melodic progressive leads
+     Effects:     Delay, reverb, chorus
+     Keywords:    atmospheric prog leads, melodic, British djent lead, warm
+
+  ····························································
+
+  [25] HARAKIRI FOR THE SKY
+       Genre: Post-Black Metal / Blackgaze  |  Guitarist: M.S.
+       Peak Era: 2015–2020
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / vintage British
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        high black metal rawness
+     EQ:          cold, treble-heavy, raw
+     Character:   Post-black metal blackgaze — raw coldness with melancholic post-rock atmosphere
+     Effects:     Heavy reverb (the shoegaze element)
+     Keywords:    post-black metal, cold raw, melancholic, reverb shoegaze atmosphere
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall vintage
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        high
+     EQ:          cold treble-heavy
+     Character:   Melodic, romantic blackgaze leads
+     Effects:     Heavy reverb, delay
+     Keywords:    romantic blackgaze leads, melodic cold, reverb heavy
+
+  ····························································
+
+  [26] MOTIONLESS IN WHITE
+       Genre: Metalcore / Industrial Metal  |  Guitarist: Ricky Horror + Ryan Sitkowski
+       Peak Era: 2012–2019
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie / Peavey 6505
+     Guitar:      Schecter / ESP
+     Pickups:     Active humbuckers
+     Gain:        very high, industrial metalcore
+     EQ:          tight scooped, industrial character
+     Character:   Gothic industrial metalcore — dark theatrics over crushing rhythm
+     Effects:     None
+     Keywords:    gothic industrial metalcore, tight scooped, 6505/Mesa, theatrical dark
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa / 6505
+     Guitar:      Schecter
+     Pickups:     Bridge active
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Gothic melodic leads
+     Effects:     Delay, harmonizer
+     Keywords:    gothic melodic leads, theatrical, harmonizer
+
+  ····························································
+
+  [27] WHILE SHE SLEEPS
+       Genre: Metalcore  |  Guitarist: Sean Long + Mat Welsh
+       Peak Era: 2012–2018
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie / Peavey 6505+
+     Guitar:      ESP / Schecter
+     Pickups:     Active humbuckers
+     Gain:        maximum, UK metalcore
+     EQ:          tight modern metalcore
+     Character:   UK working-class metalcore — raw and anthemic
+     Effects:     None
+     Keywords:    UK metalcore, raw anthemic, Peavey 6505+, maximum gain
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505+
+     Guitar:      ESP
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          mids forward
+     Character:   Anthemic metalcore melodic leads
+     Effects:     Delay, harmonizer
+     Keywords:    anthemic leads, melodic UK metalcore, harmonizer
+
+  ····························································
+
+  [28] AMON AMARTH
+       Genre: Melodic Death Metal / Viking Metal  |  Guitarist: Olavi Mikkonen + Johan Söderberg
+       Peak Era: 2011–2019 (Surtur Rising / Deceiver of the Gods / Berserker)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Dual Rectifier
+     Guitar:      ESP / BC Rich (Viking-themed)
+     Pickups:     EMG 81 active
+     Gain:        very high, Swedish melodic death
+     EQ:          warm European mid-heavy
+     Character:   Swedish melodic death metal — epic, Viking-themed, melodic underneath the heaviness
+     Effects:     None
+     Keywords:    Viking melodic death, Swedish warm heavy, Mesa Rectifier, EMG 81, epic
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Dual Rectifier
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        very high
+     EQ:          warm mids
+     Character:   Epic, melodic, Viking-scale leads — harmonized, majestic
+     Effects:     Reverb, harmonizer
+     Keywords:    epic Viking leads, majestic melodic, harmonized, warm
+
+  ····························································
+
+  [29] BARONESS
+       Genre: Progressive Metal / Sludge Rock  |  Guitarist: John Baizley + Peter Adams
+       Peak Era: 2012–2019 (Yellow & Green / Purple / Gold & Grey)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Orange Rockerverb / Marshall
+     Guitar:      Gibson Les Paul / SG
+     Pickups:     Humbuckers
+     Gain:        medium-high, psych-sludge
+     EQ:          warm Southern psychedelic character
+     Character:   Art-rock sludge metal — colorful, psychedelic, musical
+     Effects:     Phaser, wah, fuzz
+     Keywords:    art sludge metal, psychedelic Southern, Orange amp, colorful, fuzz
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Orange / Marshall
+     Guitar:      Gibson Les Paul
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          warm mids
+     Character:   Melodic psychedelic leads — expressive and artistic
+     Effects:     Fuzz, wah, phaser
+     Keywords:    psychedelic leads, expressive, artistic, fuzz wah
+
+  ····························································
+
+  [30] MASTODON
+       Genre: Progressive Metal / Hard Rock  |  Guitarist: Brent Hinds + Bill Kelliher
+       Peak Era: 2014–2017 (Once More 'Round the Sun / Emperor of Sand)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Orange / Mesa Boogie
+     Guitar:      Gibson Flying V / ES-335
+     Pickups:     Humbuckers
+     Gain:        high, evolved from sludge to prog rock
+     EQ:          warm, more accessible mid-forward
+     Character:   Evolved Mastodon — more melodic hard rock within prog metal framework
+     Effects:     None
+     Keywords:    evolved prog metal, melodic hard rock, Orange amp, Flying V warmth
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Orange / Mesa
+     Guitar:      Gibson Flying V
+     Pickups:     Bridge humbucker
+     Gain:        high
+     EQ:          warm mids
+     Character:   Increasingly melodic, jazz-influenced rock leads
+     Effects:     Wah, phase
+     Keywords:    melodic evolved leads, jazz rock, wah, prog
+
+  ····························································
+
+================================================================================
+  ERA: 2020s  (20 bands)
+================================================================================
+
+  [01] SPIRITBOX
+       Genre: Metalcore / Progressive Metal  |  Guitarist: Mike Stringer
+       Peak Era: 2021–2024 (Eternal Blue / The Fear of Fear)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Audio Axe-Fx III
+     Guitar:      Ibanez 7/8-string / Solar Guitars
+     Pickups:     Fishman Fluence Modern
+     Gain:        very high, hyper-precise
+     EQ:          modern digital metalcore — clinical, clear, punchy
+     Character:   2020s hyper-produced metalcore standard — perfect digital clarity at extreme gain
+     Effects:     None (Axe-Fx handles everything)
+     Keywords:    2020s hyper-produced metalcore, clinical clarity, Axe-Fx III, Fishman Fluence Modern, digital perfection
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fractal Axe-Fx III
+     Guitar:      7-string Solar / Ibanez
+     Pickups:     Bridge Fishman Fluence
+     Gain:        very high
+     EQ:          mids forward
+     Character:   Technical melodic metalcore leads — emotional yet precise
+     Effects:     Delay, reverb, chorus
+     Keywords:    technical emotional leads, melodic metalcore, Axe-Fx leads, Fishman
+
+  ····························································
+
+  [02] SLEEP TOKEN
+       Genre: Progressive Metal / Nu-Metal / Art Rock  |  Guitarist: II
+       Peak Era: 2021–2024 (This Place Will Become Your Home / Take Me Back to Eden)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper Profiler / Axe-Fx III
+     Guitar:      8-string / 7-string extended range
+     Pickups:     Fishman Fluence / Bare Knuckle
+     Gain:        extreme dynamic range — complete clean to overwhelming heavy
+     EQ:          sub-bass heavy when crushing, atmospheric bright when clean
+     Character:   2020s cinematic metal — the band that reinvented nu-metal emotional dynamics with modern production
+     Effects:     Massive ambient reverb, delay, synth integration
+     Keywords:    cinematic metal, extreme dynamics, nu-metal reinvented, 8-string, Kemper/Axe-Fx, sub-bass to clean atmosphere
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III / Kemper
+     Guitar:      8-string
+     Pickups:     Bridge Fishman/BKP
+     Gain:        variable
+     EQ:          atmospheric
+     Character:   Cinematic, emotionally vast leads — defines 2020s atmospheric metal lead tone
+     Effects:     Reverb cathedral-size, delay, modulation
+     Keywords:    cinematic atmospheric leads, emotionally vast, cathedral reverb, 2020s metal
+
+  ····························································
+
+  [03] BAD OMENS
+       Genre: Metalcore / Alternative Metal / Pop Metal  |  Guitarist: Nicholas Ruffilo
+       Peak Era: 2022–2024 (The Death of Peace of Mind)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      PRS / custom extended range
+     Pickups:     Fishman Fluence
+     Gain:        high, modern polished
+     EQ:          warm, modern mid-forward
+     Character:   Modern pop-metalcore — blends clean pop sensibility with modern metal weight
+     Effects:     None in guitar chain
+     Keywords:    pop-metalcore modern, warm polished, Axe-Fx, Fishman, PRS character
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      PRS
+     Pickups:     Bridge Fishman
+     Gain:        high
+     EQ:          mids warm
+     Character:   Melodic modern metalcore leads
+     Effects:     Delay, reverb
+     Keywords:    modern metalcore leads, melodic warm, polished
+
+  ····························································
+
+  [04] KNOCKED LOOSE
+       Genre: Hardcore / Metalcore  |  Guitarist: Isaac Hale
+       Peak Era: 2022–2024 (A Tear in the Fabric of Life / You Won't Go Before You're Supposed To)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper Profiler / Peavey 6505+
+     Guitar:      ESP / custom
+     Pickups:     EMG 81 / Fishman Fluence
+     Gain:        maximum, violent
+     EQ:          brutal modern hardcore metalcore
+     Character:   Defining 2020s hardcore tone — raw, violent, yet modern production
+     Effects:     None
+     Keywords:    2020s hardcore defining, violent raw, Kemper brutal, EMG maximum
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Kemper / 6505
+     Guitar:      ESP
+     Pickups:     Bridge EMG
+     Gain:        maximum
+     EQ:          mid-heavy
+     Character:   Brief, brutal context leads
+     Effects:     Minimal
+     Keywords:    brief brutal leads, violent context, modern hardcore
+
+  ····························································
+
+  [05] WET LEG
+       Genre: Indie Rock / Post-Punk Revival  |  Guitarist: Rhian Teasdale + Hester Chambers
+       Peak Era: 2022–2024
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender / vintage British
+     Guitar:      Fender Jazzmaster / Telecaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch, punky
+     EQ:          bright, jangly, DIY indie
+     Character:   2020s indie post-punk revival — dry, witty, British jangle
+     Effects:     Light reverb, fuzz occasionally
+     Keywords:    2020s indie post-punk, British jangle, Jazzmaster/Tele, witty dry tone
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender
+     Guitar:      Jazzmaster
+     Pickups:     Bridge single coil
+     Gain:        light
+     EQ:          bright
+     Character:   Simple, hooky indie leads
+     Effects:     Reverb, fuzz
+     Keywords:    hooky indie leads, simple, British post-punk revival
+
+  ····························································
+
+  [06] TURNSTILE
+       Genre: Hardcore / Post-Hardcore / Pop  |  Guitarist: Brady Ebert
+       Peak Era: 2021–2023 (Glow On)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Orange
+     Guitar:      Fender Telecaster / Strat
+     Pickups:     Single coil
+     Gain:        medium, punk-adjacent
+     EQ:          bright mid-forward, punky
+     Character:   Hardcore with pop-clean accessibility — Glow On bridges hardcore and indie rock
+     Effects:     Chorus, delay
+     Keywords:    crossover hardcore pop, bright punky, Telecaster, chorus delay, accessible hardcore
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Orange / Marshall
+     Guitar:      Telecaster
+     Pickups:     Bridge
+     Gain:        medium
+     EQ:          bright
+     Character:   Melodic, catchy punk leads
+     Effects:     Delay
+     Keywords:    catchy punk leads, melodic crossover, telecaster
+
+  ····························································
+
+  [07] SOFT PLAY (FORMERLY SLAVES)
+       Genre: Indie Rock / Punk  |  Guitarist: Laurie Vincent
+       Peak Era: 2022–2024
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Various
+     Pickups:     Humbuckers
+     Gain:        medium punk crunch
+     EQ:          raw, mid-forward
+     Character:   British punk-rock crunch, raw and satirical
+     Effects:     None
+     Keywords:    British punk crunch, raw satirical, mid-forward
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall
+     Guitar:      Various
+     Pickups:     Bridge
+     Gain:        medium
+     EQ:          bright
+     Character:   Simple punk leads
+     Effects:     None
+     Keywords:    simple punk leads
+
+  ····························································
+
+  [08] GOJIRA
+       Genre: Progressive Metal / Environmental Metal  |  Guitarist: Joe Duplantier + Christian Andreu
+       Peak Era: 2021–2024 (Fortitude era)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Custom Duplantier rig / Mesa Boogie
+     Guitar:      Duplantier signature customs
+     Pickups:     Bare Knuckle passive high-output
+     Gain:        extremely tight, controlled, surgical
+     EQ:          Fortitude era: slightly warmer, more accessible but still controlled
+     Character:   Fortitude brings wider accessibility — more melodic but still distinctly Gojira precision
+     Effects:     Floyd Rose tremolo whammy as texture tool
+     Keywords:    Fortitude accessibility, controlled precision, Duplantier custom, Bare Knuckle warmth, whammy texture
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Custom Duplantier rig
+     Guitar:      Duplantier signature
+     Pickups:     Bridge Bare Knuckle
+     Gain:        very high controlled
+     EQ:          warm atmospheric mids
+     Character:   Sparse environmental leads — each note placed for maximum impact
+     Effects:     Reverb, delay (atmospheric), whammy structure
+     Keywords:    sparse environmental leads, maximum impact placement, atmospheric, Fortitude era warmth
+
+  ····························································
+
+  [09] OLIVIA RODRIGO
+       Genre: Pop / Pop Rock / Pop Punk  |  Guitarist: N/A (session/production)
+       Peak Era: 2021–2023 (SOUR / GUTS)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Production-varied — pop-punk influenced on GUTS
+     Guitar:      Production guitar layers
+     Pickups:     Various
+     Gain:        clean pop to distorted pop-punk
+     EQ:          bright pop, punk crunch on heavier tracks
+     Character:   SOUR: clean confessional pop; GUTS: Paramore/Alanis-inspired pop-punk crunch
+     Effects:     Studio production dependent
+     Keywords:    pop-punk production, confessional pop guitar, Paramore-inspired GUTS, production crunch
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Production
+     Guitar:      Production
+     Pickups:     N/A
+     Gain:        varies
+     EQ:          bright pop
+     Character:   Guitar as supporting texture in pop production
+     Effects:     Chorus, delay
+     Keywords:    pop production leads, supporting texture
+
+  ····························································
+
+  [10] BRING ME THE HORIZON
+       Genre: Electronic Metal / Alt-Pop / Metalcore  |  Guitarist: Lee Malia
+       Peak Era: 2020–2023 (Post Human series)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper Profiler
+     Guitar:      ESP Lee Malia signature
+     Pickups:     EMG
+     Gain:        varies — Post Human blends pop to metal
+     EQ:          polished, modern
+     Character:   2020s BMTH: pop-electronic-metal synthesis — guitar is one element in massive production
+     Effects:     Electronic integration, synth layers
+     Keywords:    pop-electronic-metal, Kemper polished, production synthesis, guitar in electronic context
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Kemper
+     Guitar:      ESP Lee Malia
+     Pickups:     Bridge EMG
+     Gain:        medium to high
+     EQ:          balanced modern
+     Character:   Melodic alt-metal-pop leads
+     Effects:     Delay, modulation, electronic FX
+     Keywords:    alt-metal-pop leads, electronic FX, melodic modern
+
+  ····························································
+
+  [11] ARCHITECTS
+       Genre: Metalcore / Progressive Metal / Electronic Metal  |  Guitarist: Josh Middleton (post-Tom Searle)
+       Peak Era: 2021–2024 (For Those That Wish to Exist / The Classic Symptoms of a Broken Spirit)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Audio Axe-Fx III
+     Guitar:      Schecter / ESP
+     Pickups:     Fishman Fluence
+     Gain:        high, modern, progressive metalcore
+     EQ:          mid-forward, polished
+     Character:   Post-Tom era Architects — electronic elements merged with metalcore; heavier use of synth/orchestra
+     Effects:     None in guitar chain; massive production elements surround
+     Keywords:    post-Tom era Architects, electronic metalcore, Axe-Fx III, Fishman, production-heavy
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      Schecter
+     Pickups:     Bridge Fishman
+     Gain:        high
+     EQ:          mids forward
+     Character:   Emotional metalcore leads continuing Tom's legacy
+     Effects:     Delay, reverb
+     Keywords:    legacy melodic leads, emotional metalcore, modern prog
+
+  ····························································
+
+  [12] LORNA SHORE
+       Genre: Deathcore / Blackened Deathcore  |  Guitarist: Adam De Micco + Andrew O'Connor
+       Peak Era: 2021–2024 (And I Return to Nothingness / Pain Remains)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Mesa Boogie Mark V / Axe-Fx III
+     Guitar:      ESP 8-string / Solar Guitars 8-string
+     Pickups:     Bare Knuckle Juggernaut / active humbuckers
+     Gain:        maximum, orchestral deathcore
+     EQ:          massive orchestral blend — guitars act as part of the symphonic whole
+     Character:   Blackened deathcore with full symphony orchestra integration — the most cinematic and brutal simultaneously
+     Effects:     None in guitar chain — orchestration in production
+     Keywords:    orchestral deathcore, blackened cinematic, 8-string maximum gain, Solar Guitars, symphonic integration
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Mesa Mark V / Axe-Fx
+     Guitar:      ESP / Solar 8-string
+     Pickups:     Bridge Bare Knuckle
+     Gain:        maximum
+     EQ:          presence forward
+     Character:   Sweeping orchestral deathcore leads
+     Effects:     Reverb (orchestral integration), harmonizer
+     Keywords:    orchestral deathcore leads, sweeping, blackened metal lead, harmonizer
+
+  ····························································
+
+  [13] WILLOW
+       Genre: Alternative Rock / Pop Punk / R&B  |  Guitarist: Production/various
+       Peak Era: 2021–2023
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Varies
+     Guitar:      Production-driven
+     Pickups:     N/A
+     Gain:        pop-punk crunch on heavier tracks
+     EQ:          bright pop guitar
+     Character:   Pop-meets-punk guitar, stylistically diverse
+     Effects:     Production-varied
+     Keywords:    pop-punk guitar, alt-RnB, production varied
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Production
+     Guitar:      Various
+     Pickups:     N/A
+     Gain:        varies
+     EQ:          bright
+     Character:   Production guitar leads
+     Effects:     Varies
+     Keywords:    production leads, alt pop
+
+  ····························································
+
+  [14] BEARTOOTH
+       Genre: Hardcore Punk / Metalcore  |  Guitarist: Caleb Shomo (multi-instrumentalist) + Taylor Lumley
+       Peak Era: 2014–2022 (Disgusting / Disease / Below)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Peavey 6505+ / Mesa Boogie
+     Guitar:      Gibson SG / Les Paul
+     Pickups:     Active humbuckers
+     Gain:        very high, raw hardcore
+     EQ:          mid-forward, aggressive
+     Character:   Raw, emotional hardcore-metalcore — genuine raw emotion over technicality
+     Effects:     None
+     Keywords:    raw emotional hardcore, Peavey 6505+, SG crunch, genuine rawness
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Peavey 6505+
+     Guitar:      Gibson SG
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          mids forward
+     Character:   Melodic, emotional hardcore leads
+     Effects:     Delay
+     Keywords:    emotional hardcore leads, melodic rawness, SG bite
+
+  ····························································
+
+  [15] POLYPHIA
+       Genre: Progressive Rock / Math Rock  |  Guitarist: Tim Henson + Scott LePage
+       Peak Era: 2022–2024 (Remember That You Will Die)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Axe-Fx III
+     Guitar:      PRS Custom 24 / Tim Henson signature Ibanez
+     Pickups:     Fishman Fluence
+     Gain:        very low — ultra-clean
+     EQ:          pristine glass-clean, hyper-articulate
+     Character:   2020s ultra-clean technical guitar art — redefining what 'guitar' can be in the streaming era
+     Effects:     Trap/hip-hop influenced FX, pitch shift, chorus, Strymon reverbs
+     Keywords:    ultra-clean 2020s guitar art, trap-fusion, Axe-Fx clean, Fishman Fluence pristine, hip-hop FX integration
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      Tim Henson Ibanez signature / PRS
+     Pickups:     Bridge Fishman
+     Gain:        ultra-clean
+     EQ:          hyper-clear bright
+     Character:   Redefining guitar lead technique — two-hand tapping, legato, hybrid pick all in ultra-clean context
+     Effects:     Pitch shift, chorus, delay
+     Keywords:    ultra-clean precision leads, genre-redefining, two-hand tapping, hybrid picking, trap-fusion guitar
+
+  ····························································
+
+  [16] VEIN.FM
+       Genre: Metalcore / Screamo / Electronic  |  Guitarist: Sam Duran
+       Peak Era: 2018–2023 (errorzone / This World Is Going to Ruin You)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper / various digital
+     Guitar:      Various
+     Pickups:     Active humbuckers
+     Gain:        maximum, chaotic
+     EQ:          chaotic industrial metalcore
+     Character:   Chaotic dissonant metalcore meets electronic — no clean boundaries
+     Effects:     Industrial FX, distortion layers
+     Keywords:    chaotic dissonant metalcore, industrial FX, Kemper extreme, no boundaries
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Kemper
+     Guitar:      Various
+     Pickups:     Bridge active
+     Gain:        maximum
+     EQ:          chaotic
+     Character:   Dissonant chaotic leads
+     Effects:     Heavy processing
+     Keywords:    dissonant leads, chaotic, industrial
+
+  ····························································
+
+  [17] LOATHE
+       Genre: Progressive Metalcore / Shoegaze / Atmospheric Metal  |  Guitarist: Erik Bickerstaffe + Connor Swinnerton
+       Peak Era: 2020–2023 (I Let It In and It Took Everything)
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Kemper / Axe-Fx
+     Guitar:      Various extended range
+     Pickups:     Fishman / active
+     Gain:        high to clean — extreme contrast
+     EQ:          dark, atmospheric wide range
+     Character:   UK atmospheric metalcore — extreme clean/heavy contrast, shoegaze-inspired atmosphere
+     Effects:     Heavy reverb, delay, modulation
+     Keywords:    UK atmospheric metalcore, extreme contrast, shoegaze metal, Kemper atmosphere, dark progressive
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Kemper / Axe-Fx
+     Guitar:      Extended range
+     Pickups:     Bridge Fishman
+     Gain:        variable
+     EQ:          atmospheric
+     Character:   Atmospheric melodic leads — often clean and dreamy
+     Effects:     Cathedral reverb, delay, modulation
+     Keywords:    dreamy atmospheric leads, UK metalcore shoegaze, cathedral reverb
+
+  ····························································
+
+  [18] THE FEVER 333
+       Genre: Rap Rock / Alternative Metal / Hardcore  |  Guitarist: Stephen Harrison
+       Peak Era: 2018–2022
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Various
+     Pickups:     Active humbuckers
+     Gain:        high, aggressive
+     EQ:          mid-forward aggressive
+     Character:   Rage Against the Machine-influenced rap metal aggression
+     Effects:     None
+     Keywords:    rap metal aggression, RATM-influenced, aggressive mid-forward
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Marshall / Mesa
+     Guitar:      Various
+     Pickups:     Bridge active
+     Gain:        high
+     EQ:          presence forward
+     Character:   Aggressive, politically charged leads
+     Effects:     Wah, whammy
+     Keywords:    aggressive leads, RATM-influenced, political energy, wah
+
+  ····························································
+
+  [19] HOLDING ABSENCE
+       Genre: Metalcore / Alternative Rock / Post-Rock  |  Guitarist: Scott Carey
+       Peak Era: 2021–2024
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fractal Axe-Fx III
+     Guitar:      Various
+     Pickups:     Fishman Fluence
+     Gain:        medium to high, emotive
+     EQ:          warm, full
+     Character:   Emotional melodic metalcore — warmth and heavy combine for cinematic scope
+     Effects:     Reverb, delay, modulation
+     Keywords:    emotional melodic metalcore, warm cinematic, Axe-Fx, Fishman warmth
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Axe-Fx III
+     Guitar:      Various
+     Pickups:     Bridge Fishman
+     Gain:        high
+     EQ:          warm mids
+     Character:   Melodic, heartfelt leads
+     Effects:     Delay, reverb
+     Keywords:    heartfelt melodic leads, emotional metalcore, warm
+
+  ····························································
+
+  [20] FEVER RAY (KARIN DREIJER) / HAIM / BOYGENIUS
+       Genre: Indie Rock / Alternative  |  Guitarist: Multiple (HAIM: Este/Danielle/Alana; Boygenius: Julien Baker, Phoebe Bridgers, Lucy Dacus)
+       Peak Era: 2022–2024
+
+  ── RHYTHM TONE ──────────────────────────────────────
+     Amp:         Fender Twin / Vintage amps
+     Guitar:      Fender Stratocaster / Jazzmaster / Telecaster
+     Pickups:     Single coil
+     Gain:        clean to light crunch, indie
+     EQ:          bright, airy, natural
+     Character:   2020s indie guitar renaissance — analog warmth, vintage character, emotionally authentic
+     Effects:     Chorus, reverb, tremolo, pedal steel
+     Keywords:    indie guitar renaissance, vintage analog, clean bright, emotionally authentic, Fender character
+
+  ── LEAD TONE ────────────────────────────────────────
+     Amp:         Fender Twin / vintage
+     Guitar:      Telecaster / Jazzmaster
+     Pickups:     Bridge single coil
+     Gain:        clean to light
+     EQ:          bright warm
+     Character:   Melodic, intimate indie leads — storytelling over technique
+     Effects:     Reverb, pedal steel emulation, chorus
+     Keywords:    intimate indie leads, storytelling tone, bright clean, reverb warmth
+
+  ····························································
+
+================================================================================
+END OF DATABASE
+================================================================================
